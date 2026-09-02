@@ -74,7 +74,7 @@ A: Our team is highly adaptable and skilled at managing unexpected changes or la
 A: Tendencia Events & Travel works with a diverse range of clients, including corporate clients, small businesses, non-profits, and individual travelers — from multinational companies to local organizations across Morocco.
 
 **Q: How can I get started with Tendencia?**
-A: Simply reach out to us via our contact form, email, or phone. Our team will schedule an initial consultation. [Get a quote →](/get-a-quote)
+A: Simply reach out to us via our contact form, email, or phone. Our team will schedule an initial consultation. [Contact us →](/contact-us)
 
 **Q: Does Tendencia operate outside Tangier and Marrakech?**
 A: Yes. While our offices are based in Tangier and Marrakech, Tendencia designs and delivers events and incentive travel programs across Morocco nationwide.

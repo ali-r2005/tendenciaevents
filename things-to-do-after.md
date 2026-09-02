@@ -1,6 +1,6 @@
 # Things to Do After
 
-This content migration currently covers only the 8 core pages (home, about-us, services + 5 service sub-pages, get-a-quote). Two categories were intentionally deferred until after these core pages are enhanced and optimized:
+This content migration currently covers only the 8 core pages (home, about-us, services + 5 service sub-pages, contact-us — renamed from "get-a-quote"). Two categories were intentionally deferred until after these core pages are enhanced and optimized:
 
 ## 1. Blog Posts
 

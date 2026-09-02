@@ -12,7 +12,7 @@ Tracks the content optimization pass described in `things-to-do-after.md`'s "ord
 | 6 | Event Production | `content/services/event-production/page.md` | ✅ Done |
 | 7 | Receptive Services | `content/services/receptive-services/page.md` | ✅ Done |
 | 8 | About Us | `content/about-us/page.md` | ✅ Done |
-| 9 | Get a Quote | `content/get-a-quote/page.md` | ☐ Not started |
+| 9 | Contact Us (renamed from "Get a Quote") | `content/contact-us/page.md` | ✅ Done |
 
 ## Log
 
@@ -82,3 +82,10 @@ Each completed page gets a dated entry below with a short note on what changed.
 - Added 6th FAQ directly addressing local-vs-national scope ("Does Tendencia operate outside Tangier and Marrakech?"), consistent with nationwide-delivery framing agreed on Home page
 - Added internal links from FAQ to Services and Get a Quote
 - Founder story, mission, values, team bios kept verbatim — light-touch page per plan (trust/E-E-A-T priority over keyword density)
+
+### 2026-09-02 — Get a Quote → renamed to Contact Us
+- Per user decision: page renamed from "Get a Quote" to "Contact Us," route moved from `content/get-a-quote/page.md` to `content/contact-us/page.md` (old folder deleted)
+- Rationale: page already contains full NAP info (phone, email, both addresses) plus the quote form — "Contact Us" better matches actual content and conventional nav/URL expectations; "Get a Quote" kept as the in-page form CTA
+- Added H1/meta targeting "contact" + brand + location; expanded intro with Tangier/Marrakech/Morocco keywords
+- Fixed the internal link in About Us FAQ that pointed to the old `/get-a-quote` path
+- **Action item carried forward:** set up a 301 redirect from `/get-a-quote/` to `/contact-us/` in the Next.js build to preserve any existing rankings/backlinks
