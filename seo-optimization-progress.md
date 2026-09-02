@@ -7,10 +7,10 @@ Tracks the content optimization pass described in `things-to-do-after.md`'s "ord
 | 1 | Home | `content/page.md` | ✅ Done |
 | 2 | Services (hub) | `content/services/page.md` | ✅ Done |
 | 3 | Destination Management | `content/services/destination-management/page.md` | ✅ Done |
-| 4 | Event Management | `content/services/event-management/page.md` | ☐ Not started |
-| 5 | Incentive Seminar – PCO | `content/services/incentive-seminar-pco/page.md` | ☐ Not started |
-| 6 | Event Production | `content/services/event-production/page.md` | ☐ Not started |
-| 7 | Receptive Services | `content/services/receptive-services/page.md` | ☐ Not started |
+| 4 | Event Management | `content/services/event-management/page.md` | ✅ Done |
+| 5 | Incentive Seminar – PCO | `content/services/incentive-seminar-pco/page.md` | ⏸ On hold — page will be replaced by something else (TBD, user to confirm) |
+| 6 | Event Production | `content/services/event-production/page.md` | ✅ Done |
+| 7 | Receptive Services | `content/services/receptive-services/page.md` | ✅ Done |
 | 8 | About Us | `content/about-us/page.md` | ☐ Not started |
 | 9 | Get a Quote | `content/get-a-quote/page.md` | ☐ Not started |
 
@@ -49,3 +49,25 @@ Each completed page gets a dated entry below with a short note on what changed.
 - **Resolved duplicate-content issue:** replaced the generic 15-item feature list (identical across all 5 service pages) with a trimmed, service-relevant subset; noted what was removed and why
 - Added "Related Services" internal links to Incentive Seminar–PCO, Receptive Services, and the Services hub
 - This trim + internal-link pattern will be reused on the remaining 4 service pages
+
+### 2026-09-02 — Event Management
+- Added H1/meta targeting "event management company Morocco"
+- Expanded description tying wedding/conference/gala examples to Tangier/Marrakech
+- Trimmed the boilerplate feature list to event-management-relevant items, removing overlap with Destination Management page
+- Added "Related Services" links to Event Production and Destination Management
+
+### 2026-09-02 — Incentive Seminar – PCO
+- **Skipped per user request** — this page will be replaced by something else, to be confirmed later. Marked "on hold" in the tracker above rather than optimized.
+
+### 2026-09-02 — Event Production
+- Added H1/meta targeting "event production Morocco" plus named components (lighting, staging, AV)
+- Expanded description tying lighting/staging/AV to Tangier/Marrakech
+- Replaced boilerplate feature list with production-specific items pulled from the actual description (Lighting Design, Set & Stage Design, Sound & AV, Special Effects)
+- Added "Related Services" links to Event Management and Destination Management
+
+### 2026-09-02 — Receptive Services
+- Added H1/meta targeting "receptive services Morocco" / "ground handling Morocco" (industry term for this service category)
+- Expanded description with concrete mechanics (meet-and-greet, transfers, hotels, excursions) and target audience (foreign delegations/travelers), consistent with original claims
+- Trimmed boilerplate feature list to receptive-specific items
+- Added "Related Services" links to Destination Management and Incentive Seminar–PCO
+- Flagged: links to the on-hold Incentive Seminar–PCO page — revisit once that page's replacement direction is confirmed

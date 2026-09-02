@@ -2,29 +2,39 @@
 
 URL: https://tendenciaevents.com/services/event-management/
 
+## Meta
+- **Meta title:** Event Management Company Morocco | Tendencia Events & Travel
+- **Meta description:** Full event management in Morocco — corporate soirées, galas, conferences, and weddings planned end-to-end by Tendencia's team in Tangier and Marrakech, from logistics to guest management.
+- Page title (browser tab, original): Event Management | Tendencia
+
 ## Headline
-Event Management
+**H1:** Event Management Company in Morocco
+
+*(Original: "Event Management")*
 
 ## Service Description
 Entrust us with the complete planning and management of your event. Whether it's a wedding, conference, corporate soirée, or gala, we take care of all logistical details, vendor coordination, decor, guest management, and more.
 
+From corporate conferences in Tangier to galas and weddings in Marrakech, our event management team handles every stage of the process — planning, vendor sourcing, on-site coordination, and post-event reporting — so you can focus on your guests, not the logistics.
+
 ## CTA
 Let's Make Memories Together
 
-## Service Features
-- Bespoke Travel Solutions
-- Comprehensive Event Reporting
-- Creative Event Concept Development
+## What This Service Includes
 - Efficient Logistics Planning
-- Engaging Event Communication
-- Flexible Destination Selection
-- Innovative Technology Integration
-- Interactive Team Building Exercises
-- Personalized Attendee Experiences
-- Responsive Client Support
+- Vendor & Décor Coordination
 - Streamlined Event Management Processes
-- Targeted Client Engagement Tactics
-- Thematic Event Coordination
+- Creative Event Concept Development
+- Personalized Attendee Experiences
+- Comprehensive Event Reporting
+- Responsive Client Support
+
+*(Trimmed from the original generic 15-item feature list to the items most relevant to full event management specifically; items like "Interactive Team Building Exercises" and "Flexible Destination Selection" were removed here since they duplicate content on the [Destination Management](/services/destination-management) page.)*
+
+## Related Services
+- [Event Production](/services/event-production) — for lighting, staging, and technical production within your event
+- [Destination Management](/services/destination-management) — for choosing and managing the right destination for your event
+- [All Services](/services)
 
 ## Office Locations
 
@@ -40,3 +50,24 @@ Main contact: +(212) 5 39 32 01 91 | info@tendenciaevents.com
 
 ## Footer
 Copyright © 2026 Tendencia Events & Travel | All Rights Reserved
+
+---
+
+## SEO Notes
+- **Changes made:** Added keyword-targeted H1/meta around "event management company Morocco." Expanded description with one sentence tying the existing wedding/conference/gala examples to Tangier and Marrakech specifically. Replaced the generic 15-item feature list with a trimmed, event-management-relevant subset, removing items that duplicate the Destination Management page. Added "Related Services" internal links to Event Production and Destination Management, plus a link back to the Services hub.
+- **Not changed:** CTA text and office/contact info kept verbatim. Core service description (wedding/conference/gala/logistics claim) preserved exactly — only extended, not altered.
+
+## Target Keywords (by priority)
+
+**Priority 1 — Primary (H1, meta title, meta description):**
+1. Event management company Morocco
+2. Corporate event planner Morocco
+
+**Priority 2 — Secondary (used in description body):**
+3. Conference planning Morocco
+4. Gala & corporate soirée planning Morocco
+5. Wedding planning Morocco
+
+**Priority 3 — Local/long-tail (used in description + office blocks):**
+6. Event management company Tangier
+7. Event management company Marrakech
