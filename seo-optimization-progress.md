@@ -5,7 +5,7 @@ Tracks the content optimization pass described in `things-to-do-after.md`'s "ord
 | # | Page | File | Status |
 |---|------|------|--------|
 | 1 | Home | `content/page.md` | ✅ Done |
-| 2 | Services (hub) | `content/services/page.md` | ☐ Not started |
+| 2 | Services (hub) | `content/services/page.md` | ✅ Done |
 | 3 | Destination Management | `content/services/destination-management/page.md` | ☐ Not started |
 | 4 | Event Management | `content/services/event-management/page.md` | ☐ Not started |
 | 5 | Incentive Seminar – PCO | `content/services/incentive-seminar-pco/page.md` | ☐ Not started |
@@ -32,3 +32,11 @@ Each completed page gets a dated entry below with a short note on what changed.
 - Added intro sentence to Testimonials section naming key clients for credibility + keyword context
 - Added location-qualified subheadings to Tangier/Marrakech office blocks
 - No factual content changed (testimonials, team, process, addresses, phones all preserved verbatim)
+- Later revised hero intro to lead with nationwide delivery ("across Morocco") rather than "Based in Tangier and Marrakech," per user confirmation that Tendencia delivers events beyond its two office cities — offices now framed as supporting infrastructure, not a service boundary
+
+### 2026-09-02 — Services (hub)
+- Added H1 + meta title/description targeting "event management services Morocco"
+- Rewrote generic intro to include location + core service keywords
+- Reordered services to lead with highest-intent (Destination Management, Event Management) instead of Receptive Services
+- Added internal links from each service blurb to its dedicated sub-page (hub page's main job is passing topical authority to the 5 sub-pages)
+- All 6 service description paragraphs kept verbatim — only structure/headline/intro changed

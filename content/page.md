@@ -4,7 +4,7 @@ URL: https://tendenciaevents.com/
 
 ## Meta
 - **Meta title:** Event Management & Team Building Morocco | Tendencia Events & Travel
-- **Meta description:** Tendencia Events & Travel is a full-service event management and team building agency in Tangier and Marrakech, Morocco — corporate events, incentive travel, seminars, and destination management, tailored with care.
+- **Meta description:** Tendencia Events & Travel is a full-service event management and team building agency based in Tangier and Marrakech, operating all over Morocco — corporate events, incentive travel, seminars, and destination management, tailored with care.
 - Page title (browser tab, original): Home Page | Tendencia
 
 ## Hero Section
