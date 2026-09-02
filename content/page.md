@@ -14,7 +14,7 @@ URL: https://tendenciaevents.com/
 
 with meticulous attention to detail and a fearless approach, we make every moment COUNT!
 
-Based in Tangier and Marrakech, Tendencia Events & Travel designs and delivers corporate events, team building programs, and incentive travel experiences across Morocco — with the same relentless attention to detail on every project.
+Tendencia Events & Travel designs and delivers corporate events, team building programs, and incentive travel experiences across Morocco — with dedicated offices in Tangier and Marrakech and the same relentless attention to detail on every project, wherever it happens.
 
 **CTA button:** Need Inspiration
 
