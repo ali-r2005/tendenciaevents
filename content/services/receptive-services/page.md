@@ -4,7 +4,7 @@ URL: https://tendenciaevents.com/services/receptive-services/
 
 ## Meta
 - **Meta title:** Receptive Services Morocco — Ground Handling & Tours | Tendencia
-- **Meta description:** Receptive services in Morocco for international groups and delegates: airport transfers, accommodation, guided tours, and leisure activities with 24/7 assistance from Tangier and Marrakech.
+- **Meta description:** Receptive services in Morocco for international groups and delegates: airport transfers, accommodation, guided tours, and leisure activities with 24/7 assistance.
 - Page title (browser tab, original): Receptive Services | Tendencia
 
 ## Headline
