@@ -11,7 +11,7 @@ Tracks the content optimization pass described in `things-to-do-after.md`'s "ord
 | 5 | Incentive Seminar – PCO | `content/services/incentive-seminar-pco/page.md` | ⏸ On hold — page will be replaced by something else (TBD, user to confirm) |
 | 6 | Event Production | `content/services/event-production/page.md` | ✅ Done |
 | 7 | Receptive Services | `content/services/receptive-services/page.md` | ✅ Done |
-| 8 | About Us | `content/about-us/page.md` | ☐ Not started |
+| 8 | About Us | `content/about-us/page.md` | ✅ Done |
 | 9 | Get a Quote | `content/get-a-quote/page.md` | ☐ Not started |
 
 ## Log
@@ -71,3 +71,14 @@ Each completed page gets a dated entry below with a short note on what changed.
 - Trimmed boilerplate feature list to receptive-specific items
 - Added "Related Services" links to Destination Management and Incentive Seminar–PCO
 - Flagged: links to the on-hold Incentive Seminar–PCO page — revisit once that page's replacement direction is confirmed
+
+### 2026-09-02 — Event Production (correction)
+- Fixed an external edit that had swapped the description's example cities from Tangier/Marrakech to Casablanca/Rabat — Tendencia has no offices in the latter two, which contradicted the meta description and every other page's location framing. Reverted to Marrakech/Tangier.
+
+### 2026-09-02 — About Us
+- Added H1/meta targeting "event management agency Morocco" + Tangier/Marrakech
+- Added one location sentence to "Our Story" section
+- Lightly expanded 3 of 5 original FAQ answers with detail already implied elsewhere on site (no new claims invented)
+- Added 6th FAQ directly addressing local-vs-national scope ("Does Tendencia operate outside Tangier and Marrakech?"), consistent with nationwide-delivery framing agreed on Home page
+- Added internal links from FAQ to Services and Get a Quote
+- Founder story, mission, values, team bios kept verbatim — light-touch page per plan (trust/E-E-A-T priority over keyword density)

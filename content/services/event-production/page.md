@@ -15,7 +15,7 @@ URL: https://tendenciaevents.com/services/event-production/
 ## Service Description
 From lighting to set design, sound systems to special effects, we ensure high-quality event production to guarantee a visually and audibly stunning experience. We work with industry-leading suppliers to create events that leave a lasting impression.
 
-Whether it's stage design for a corporate gala in Casablanca or full AV and lighting setup for a conference in Rabat, our event production team brings the technical expertise to turn any venue into a fully produced experience.
+Whether it's stage design for a corporate gala in Marrakech or full AV and lighting setup for a conference in Tangier, our event production team brings the technical expertise to turn any venue into a fully produced experience.
 
 ## CTA
 Let's Make Memories Together
