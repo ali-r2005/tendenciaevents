@@ -33,6 +33,7 @@ Each completed page gets a dated entry below with a short note on what changed.
 - Added location-qualified subheadings to Tangier/Marrakech office blocks
 - No factual content changed (testimonials, team, process, addresses, phones all preserved verbatim)
 - Later revised hero intro to lead with nationwide delivery ("across Morocco") rather than "Based in Tangier and Marrakech," per user confirmation that Tendencia delivers events beyond its two office cities — offices now framed as supporting infrastructure, not a service boundary
+- Added "MICE Morocco" (Meetings, Incentives, Conferences, Exhibitions) as Priority 2 keyword per user request; woven into the Services Offered intro sentence, not just listed
 
 ### 2026-09-02 — Services (hub)
 - Added H1 + meta title/description targeting "event management services Morocco"

@@ -42,7 +42,7 @@ We are passionate about inspiration. We are committed to stimulating your creati
 
 ## Services Offered
 
-As a full-service event management and destination management company (DMC) in Morocco, Tendencia covers every stage of your event or corporate trip — from destination management and event production to team building and incentive travel:
+As a full-service event management and destination management company (DMC) in Morocco, Tendencia covers every stage of your event or corporate trip — from destination management and event production to team building and incentive travel. Our MICE expertise means we handle everything from corporate seminars and PCO-managed conferences to incentive travel programs and large-scale exhibitions:
 
 **Event & Destination Management**
 - Destination management (DMC Morocco)
@@ -146,7 +146,7 @@ Copyright © 2026 Tendencia Events & Travel | All Rights Reserved
 ---
 
 ## SEO Notes
-- **Changes made:** Added explicit H1 with primary keywords (original hero tagline kept as supporting subhead), added meta title/description, added keyword-rich intro sentences to the Services and Testimonials sections, grouped the flat services list into four themed clusters for readability and topical structure, added location-qualified subheadings to the two office blocks.
+- **Changes made:** Added explicit H1 with primary keywords (original hero tagline kept as supporting subhead), added meta title/description, added keyword-rich intro sentences to the Services and Testimonials sections, grouped the flat services list into four themed clusters for readability and topical structure, added location-qualified subheadings to the two office blocks, added a MICE (Meetings, Incentives, Conferences, Exhibitions) reference to the Services intro since it's a recognized industry term matching Tendencia's seminar/PCO/incentive/conference offerings.
 - **Not changed:** All factual content — testimonials, team names/roles, process steps, addresses, phone numbers — preserved exactly as on the live site. No claims were invented.
 
 ## Target Keywords (by priority)
@@ -161,7 +161,8 @@ Copyright © 2026 Tendencia Events & Travel | All Rights Reserved
 5. Corporate incentive travel Morocco
 6. Event production Morocco
 7. Seminar organizer Morocco / PCO Morocco
+8. MICE Morocco (Meetings, Incentives, Conferences, Exhibitions)
 
 **Priority 3 — Local/long-tail (used in office location subheadings):**
-8. Event agency Tangier
-9. Event agency Marrakech
+9. Event agency Tangier
+10. Event agency Marrakech
