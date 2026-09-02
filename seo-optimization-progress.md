@@ -41,6 +41,7 @@ Each completed page gets a dated entry below with a short note on what changed.
 - Reordered services to lead with highest-intent (Destination Management, Event Management) instead of Receptive Services
 - Added internal links from each service blurb to its dedicated sub-page (hub page's main job is passing topical authority to the 5 sub-pages)
 - All 6 service description paragraphs kept verbatim — only structure/headline/intro changed
+- Added "MICE Morocco" as Priority 2 keyword per user request; woven into the intro paragraph, not just listed
 
 ### 2026-09-02 — Destination Management
 - Added H1/meta targeting "DMC Morocco" / "destination management company Morocco"

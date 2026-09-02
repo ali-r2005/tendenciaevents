@@ -13,7 +13,7 @@ URL: https://tendenciaevents.com/services/
 *(Original: "Our SERVICES")*
 
 ## Intro
-Tendencia Events & Travel offers a full range of specialized event management and destination management services across Morocco. From first concept to final execution, our teams in Tangier and Marrakech combine local expertise with an obsessive focus on detail to deliver corporate events, incentive travel, and team building programs that meet every need.
+Tendencia Events & Travel offers a full range of specialized event management and destination management services across Morocco. From first concept to final execution, our teams in Tangier and Marrakech combine local MICE expertise with an obsessive focus on detail to deliver corporate events, incentive travel, and team building programs that meet every need .
 
 *(Original: "Explore our range of specialized services designed to elevate your events and travel experiences. With a focus on excellence and innovation, we offer tailored solutions to meet your every need.")*
 
@@ -55,7 +55,7 @@ Copyright © 2026 Tendencia Events & Travel | All Rights Reserved
 ---
 
 ## SEO Notes
-- **Changes made:** Added explicit H1 and meta title/description targeting the category-level keyword "event management services Morocco." Rewrote intro to include location (Tangier/Marrakech) and core service keywords instead of generic "excellence and innovation" copy. Reordered the 6 services to lead with the two highest commercial-intent services (Destination Management, Event Management) instead of Receptive Services. Added internal links from each service blurb to its dedicated sub-page — this hub page's main SEO job is to pass topical authority down to those 5 pages, so internal linking here matters more than on any other page.
+- **Changes made:** Added explicit H1 and meta title/description targeting the category-level keyword "event management services Morocco." Rewrote intro to include location (Tangier/Marrakech) and core service keywords instead of generic "excellence and innovation" copy, including a MICE (Meetings, Incentives, Conferences, Exhibitions) reference. Reordered the 6 services to lead with the two highest commercial-intent services (Destination Management, Event Management) instead of Receptive Services. Added internal links from each service blurb to its dedicated sub-page — this hub page's main SEO job is to pass topical authority down to those 5 pages, so internal linking here matters more than on any other page.
 - **Not changed:** All 6 service description paragraphs kept verbatim from the live site — they're accurate and reasonably descriptive already; the fix needed here was structural (headline, intro, linking), not rewriting each blurb.
 
 ## Target Keywords (by priority)
@@ -69,7 +69,8 @@ Copyright © 2026 Tendencia Events & Travel | All Rights Reserved
 4. Incentive seminar Morocco / PCO Morocco
 5. Event production Morocco
 6. Team building Morocco
+7. MICE Morocco (Meetings, Incentives, Conferences, Exhibitions)
 
 **Priority 3 — Local/long-tail (used in intro + office blocks):**
-7. Event agency Tangier
-8. Event agency Marrakech
+8. Event agency Tangier
+9. Event agency Marrakech
