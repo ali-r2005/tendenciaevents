@@ -106,3 +106,8 @@ Each completed page gets a dated entry below with a short note on what changed.
 - Expanded description with concrete PCO mechanics (program design, speaker/delegate coordination) tied to Tangier/Marrakech
 - Trimmed the boilerplate feature list to PCO/incentive-specific items, removing overlap with Event Management, Destination Management, and Receptive Services
 - Added "Related Services" links to Event Management, Receptive Services, and Destination Management — routing the parts of a seminar/incentive program that belong on those pages
+
+### 2026-09-02 — Event Management (correction)
+- Removed "wedding" from meta description and service description per user confirmation — Tendencia does not offer wedding planning services. This was inaccurate in the original live-site copy.
+- Removed "Wedding planning Morocco" from the Priority 2 keyword list
+- **Flag for client:** the live WordPress site's Event Management page still says "wedding" — worth correcting there too, not just in this migrated content
