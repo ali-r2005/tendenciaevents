@@ -36,7 +36,10 @@ export default function Home() {
       <main className="max-w-[1240px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
         {/* Hero */}
         <section className="w-full">
-          <div className="rounded-custom overflow-hidden bg-brand-neutral h-[560px] sm:h-[640px] lg:h-[700px] relative w-full flex items-center justify-center p-6 shadow-2xl">
+          <div
+            className="rounded-custom overflow-hidden bg-brand-neutral bg-cover bg-center h-[560px] sm:h-[640px] lg:h-[700px] relative w-full flex items-center justify-center p-6 shadow-2xl"
+            style={{ backgroundImage: "url('/BG.jpg')" }}
+          >
             <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-black/60" />
             <div className="absolute inset-2 sm:inset-4 border border-white/15 rounded-[4px] pointer-events-none" />
             <div className="absolute top-8 text-center text-white/70 text-[11px] tracking-[0.25em] uppercase">

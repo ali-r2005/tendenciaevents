@@ -137,7 +137,15 @@ The final experience should feel like **a professional event partner that create
 
 ---
 
-## 6. Design System Structure
+## 6. Border Radius
+
+**Standard radius — `6px`**
+
+All corners across the site (buttons, cards, images, form inputs, containers) should use a consistent 6px border radius, so the interface reads as one deliberate system rather than mismatched components.
+
+---
+
+## 7. Design System Structure
 
 Design System should initially include:
 
