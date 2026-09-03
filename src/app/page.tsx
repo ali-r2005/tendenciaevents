@@ -141,10 +141,13 @@ export default function Home() {
               {t.process.title}
             </h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
             {t.process.steps.map((step, i) => (
-              <div key={step} className="border-t border-brand-border pt-6 space-y-4">
-                <span className="text-xs font-medium text-brand-green">
+              <div
+                key={step}
+                className="bg-brand-subtle border border-brand-border rounded-custom p-6 space-y-4 hover:border-brand-green transition-colors"
+              >
+                <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-brand-green text-white text-xs font-medium">
                   0{i + 1}
                 </span>
                 <p className="text-[16px] text-brand-muted leading-relaxed">{step}</p>
@@ -216,9 +219,18 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 pt-4">
             {t.team.members.map((member) => (
-              <div key={member.name} className="border-t border-brand-border pt-4">
-                <p className="font-medium text-brand-neutral text-[16px]">{member.name}</p>
-                <p className="text-[13px] text-brand-muted">{member.role}</p>
+              <div key={member.name} className="bg-brand-subtle rounded-custom overflow-hidden border border-brand-border">
+                <div className="w-full h-48 bg-brand-canvas flex items-center justify-center text-brand-muted text-[13px] overflow-hidden">
+                  <img
+                    src={`/team/${member.name.toLowerCase().replace(/\s+/g, "-")}.jpg`}
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4">
+                  <p className="font-medium text-brand-neutral text-[16px]">{member.name}</p>
+                  <p className="text-[13px] text-brand-muted mt-1">{member.role}</p>
+                </div>
               </div>
             ))}
           </div>

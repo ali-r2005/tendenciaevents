@@ -170,11 +170,11 @@ export const en = {
     label: "Our Team",
     title: "The people behind every event",
     members: [
+      { name: "Nabih Kabbaj", role: "CEO & Managing Director" },
       { name: "Noorddine Khabbach", role: "Logistics Manager" },
       { name: "Sabrine Elbarie", role: "Digital Marketing Manager" },
       { name: "Najlae Riahi", role: "Travel & Event Designer" },
       { name: "Fatimazahra Bakkali", role: "Production Project Manager" },
-      { name: "Nabih Kabbaj", role: "CEO & Managing Director" },
     ],
   },
 
