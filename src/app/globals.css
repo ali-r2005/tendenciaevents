@@ -32,8 +32,8 @@
   --font-display: var(--font-display);
   --font-sans: var(--font-sans);
 
-  --radius-custom: 6px;
-  --radius-custom-lg: 8px;
+  --radius-custom: 4px;
+  --radius-custom-lg: 6px;
 }
 
 body {

@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="max-w-[1400px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
+      <main className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
         {/* Hero */}
         <section className="w-full">
           <div
@@ -287,8 +287,8 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="pt-8 pb-16 space-y-12 max-w-[1400px] mx-auto px-4 sm:px-6">
-        <div className="border border-brand-border bg-brand-subtle p-8 sm:p-12 rounded-custom">
+      <footer className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 pt-8 pb-16 space-y-12">
+        <div className="w-full border border-brand-border bg-brand-subtle p-8 sm:p-12 rounded-custom">
           <h3 className="font-display text-2xl sm:text-3xl text-brand-neutral font-normal mb-3">
             {t.footer.heading}
           </h3>
@@ -297,11 +297,6 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="pt-4 border-b border-brand-border pb-4">
-          <h2 className="font-display text-6xl sm:text-8xl md:text-9xl font-normal tracking-tight text-brand-neutral leading-none select-none">
-            {t.footer.wordmark}
-          </h2>
-        </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-brand-muted">
           <div>{t.footer.copyright}</div>

@@ -203,7 +203,6 @@ export const en = {
     heading: "Creating Memories, tailored with care.",
     description:
       "Corporate events, team building, and incentive travel across Morocco — with dedicated offices in Tangier and Marrakech.",
-    wordmark: "Tendencia",
     copyright: "Copyright © 2026 Tendencia Events & Travel | All Rights Reserved",
     links: [
       { label: "Terms and Conditions", href: "/terms-and-conditions" },
