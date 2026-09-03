@@ -8,7 +8,7 @@ Tracks the content optimization pass described in `things-to-do-after.md`'s "ord
 | 2 | Services (hub) | `content/services/page.md` | ✅ Done |
 | 3 | Destination Management | `content/services/destination-management/page.md` | ✅ Done |
 | 4 | Event Management | `content/services/event-management/page.md` | ✅ Done |
-| 5 | Incentive Seminar – PCO | `content/services/incentive-seminar-pco/page.md` | ⏸ On hold — page will be replaced by something else (TBD, user to confirm) |
+| 5 | Incentive Seminar – PCO | `content/services/incentive-seminar-pco/page.md` | ✅ Done |
 | 6 | Event Production | `content/services/event-production/page.md` | ✅ Done |
 | 7 | Receptive Services | `content/services/receptive-services/page.md` | ✅ Done |
 | 8 | About Us | `content/about-us/page.md` | ✅ Done |
@@ -59,6 +59,12 @@ Each completed page gets a dated entry below with a short note on what changed.
 ### 2026-09-02 — Incentive Seminar – PCO
 - **Skipped per user request** — this page will be replaced by something else, to be confirmed later. Marked "on hold" in the tracker above rather than optimized.
 
+### 2026-09-02 — Incentive Seminar – PCO (decision reversed)
+- User proposed replacing this page with a new "MICE Events Planning" service. Redundancy check found real overlap risk: MICE (Meetings, Incentives, Conferences, Exhibitions) would duplicate "Conferences" with Event Management and "Incentives" with Receptive Services — a broad MICE page would cannibalize both.
+- **Decision: keep Incentive Seminar–PCO unchanged, do not replace it.** Its actual differentiator (PCO/congress management — registration, program, exhibitor/booth coordination) is genuinely distinct from the other 4 services and worth preserving as its own page.
+- Instead, added "MICE" as a keyword/umbrella-term mention on the **Event Management** page only, with an explicit internal link to this page for congress/PCO-specific work — keeps MICE searchable without creating a new overlapping page.
+- This page is still pending its own optimization pass (H1/meta/feature-list trim) — not done yet, just no longer being replaced.
+
 ### 2026-09-02 — Event Production
 - Added H1/meta targeting "event production Morocco" plus named components (lighting, staging, AV)
 - Expanded description tying lighting/staging/AV to Tangier/Marrakech
@@ -89,3 +95,14 @@ Each completed page gets a dated entry below with a short note on what changed.
 - Added H1/meta targeting "contact" + brand + location; expanded intro with Tangier/Marrakech/Morocco keywords
 - Fixed the internal link in About Us FAQ that pointed to the old `/get-a-quote` path
 - **Action item carried forward:** set up a 301 redirect from `/get-a-quote/` to `/contact-us/` in the Next.js build to preserve any existing rankings/backlinks
+
+### 2026-09-02 — Event Management (revision)
+- Added a MICE (Meetings, Incentives, Conferences, Exhibitions) umbrella-term mention to the description, scoped narrowly to avoid overlap with Incentive Seminar–PCO and Receptive Services (see decision above)
+- Added explicit internal link to Incentive Seminar–PCO for congress/PCO-specific work
+- Added "MICE events Morocco" as Priority 2 keyword #6
+
+### 2026-09-02 — Incentive Seminar – PCO
+- Added H1/meta targeting "PCO Morocco" and "incentive seminar Morocco," kept narrowly scoped to congress/PCO + incentive structuring (not broadened to generic MICE, per the earlier redundancy decision)
+- Expanded description with concrete PCO mechanics (program design, speaker/delegate coordination) tied to Tangier/Marrakech
+- Trimmed the boilerplate feature list to PCO/incentive-specific items, removing overlap with Event Management, Destination Management, and Receptive Services
+- Added "Related Services" links to Event Management, Receptive Services, and Destination Management — routing the parts of a seminar/incentive program that belong on those pages

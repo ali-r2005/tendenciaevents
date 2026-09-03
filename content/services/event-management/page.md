@@ -15,7 +15,7 @@ URL: https://tendenciaevents.com/services/event-management/
 ## Service Description
 Entrust us with the complete planning and management of your event. Whether it's a wedding, conference, corporate soirée, or gala, we take care of all logistical details, vendor coordination, decor, guest management, and more.
 
-From corporate conferences in Tangier to galas and weddings in Marrakech, our event management team handles every stage of the process — planning, vendor sourcing, on-site coordination, and post-event reporting — so you can focus on your guests, not the logistics.
+From corporate conferences in Tangier to galas and weddings in Marrakech, our event management team handles every stage of the process — planning, vendor sourcing, on-site coordination, and post-event reporting — so you can focus on your guests, not the logistics. This covers the full spectrum of corporate and MICE events (Meetings, Incentives, Conferences, Exhibitions) — for large-scale congresses and PCO-managed programs specifically, see our [Incentive Seminar – PCO](/services/incentive-seminar-pco) service.
 
 ## CTA
 Let's Make Memories Together
@@ -32,6 +32,7 @@ Let's Make Memories Together
 *(Trimmed from the original generic 15-item feature list to the items most relevant to full event management specifically; items like "Interactive Team Building Exercises" and "Flexible Destination Selection" were removed here since they duplicate content on the [Destination Management](/services/destination-management) page.)*
 
 ## Related Services
+- [Incentive Seminar – PCO](/services/incentive-seminar-pco) — for congress management, PCO services, and incentive travel programs
 - [Event Production](/services/event-production) — for lighting, staging, and technical production within your event
 - [Destination Management](/services/destination-management) — for choosing and managing the right destination for your event
 - [All Services](/services)
@@ -54,7 +55,7 @@ Copyright © 2026 Tendencia Events & Travel | All Rights Reserved
 ---
 
 ## SEO Notes
-- **Changes made:** Added keyword-targeted H1/meta around "event management company Morocco." Expanded description with one sentence tying the existing wedding/conference/gala examples to Tangier and Marrakech specifically. Replaced the generic 15-item feature list with a trimmed, event-management-relevant subset, removing items that duplicate the Destination Management page. Added "Related Services" internal links to Event Production and Destination Management, plus a link back to the Services hub.
+- **Changes made:** Added keyword-targeted H1/meta around "event management company Morocco." Expanded description with one sentence tying the existing wedding/conference/gala examples to Tangier and Marrakech specifically. Added a MICE (Meetings, Incentives, Conferences, Exhibitions) mention as an umbrella term, with an explicit link out to Incentive Seminar–PCO for congress/PCO-specific work — kept intentionally light here to avoid content overlap with that page (see decision log: MICE was considered as a standalone replacement service but rejected due to redundancy with both this page and Receptive Services; keeping Incentive Seminar–PCO as-is and just cross-referencing MICE here was the safer choice). Replaced the generic 15-item feature list with a trimmed, event-management-relevant subset, removing items that duplicate the Destination Management page. Added "Related Services" internal links to Incentive Seminar–PCO, Event Production, and Destination Management, plus a link back to the Services hub.
 - **Not changed:** CTA text and office/contact info kept verbatim. Core service description (wedding/conference/gala/logistics claim) preserved exactly — only extended, not altered.
 
 ## Target Keywords (by priority)
@@ -67,7 +68,8 @@ Copyright © 2026 Tendencia Events & Travel | All Rights Reserved
 3. Conference planning Morocco
 4. Gala & corporate soirée planning Morocco
 5. Wedding planning Morocco
+6. MICE events Morocco (Meetings, Incentives, Conferences, Exhibitions)
 
 **Priority 3 — Local/long-tail (used in description + office blocks):**
-6. Event management company Tangier
-7. Event management company Marrakech
+7. Event management company Tangier
+8. Event management company Marrakech
