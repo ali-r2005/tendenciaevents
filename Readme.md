@@ -1,1 +1,1 @@
-# this is the starter theme generate by Aziz Bergach
+we will start by the name of the project that is : tendenciaevents
