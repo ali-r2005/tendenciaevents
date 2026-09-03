@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Hammersmith_One, Inter } from "next/font/google";
+import { getDictionary } from "../../i18n";
 import "./globals.css";
 
 const hammersmithOne = Hammersmith_One({
@@ -13,10 +14,11 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+const dictionary = getDictionary();
+
 export const metadata: Metadata = {
-  title: "Event Management & Team Building Morocco | Tendencia Events & Travel",
-  description:
-    "Tendencia Events & Travel is a full-service event management and team building agency based in Tangier and Marrakech, operating all over Morocco — corporate events, incentive travel, seminars, and destination management, tailored with care.",
+  title: dictionary.meta.title,
+  description: dictionary.meta.description,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
