@@ -15,7 +15,7 @@ export default function Home() {
     <>
       {/* Header */}
       <header className="w-full bg-brand-canvas/95 border-b border-brand-border sticky top-0 z-50 backdrop-blur-md">
-        <div className="max-w-[1240px] mx-auto px-6 h-16 flex items-center justify-between">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 group">
             <span className="w-2.5 h-2.5 rounded-full bg-brand-green transition-transform group-hover:scale-125 duration-300" />
             <span className="text-[19px] font-medium tracking-tight text-brand-neutral">
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="max-w-[1240px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
+      <main className="max-w-[1400px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
         {/* Hero */}
         <section className="w-full">
           <div
@@ -66,7 +66,7 @@ export default function Home() {
               </p>
               <a
                 href="/contact-us"
-                className="bg-brand-green hover:bg-brand-blue transition-colors px-8 py-3.5 rounded-custom text-white text-[13px] font-medium tracking-wide uppercase flex items-center gap-3"
+                className="bg-brand-blue hover:bg-brand-green transition-colors px-8 py-3.5 rounded-custom text-white text-[13px] font-medium tracking-wide uppercase flex items-center gap-3"
               >
                 {t.hero.cta}
               </a>
@@ -287,7 +287,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="pt-8 pb-16 space-y-12 max-w-[1240px] mx-auto px-4 sm:px-6">
+      <footer className="pt-8 pb-16 space-y-12 max-w-[1400px] mx-auto px-4 sm:px-6">
         <div className="border border-brand-border bg-brand-subtle p-8 sm:p-12 rounded-custom">
           <h3 className="font-display text-2xl sm:text-3xl text-brand-neutral font-normal mb-3">
             {t.footer.heading}

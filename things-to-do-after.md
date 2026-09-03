@@ -27,3 +27,6 @@ The live site has an active blog at `/blog/` with ongoing posts (e.g. "What If a
 2. Migrate + optimize blog posts (same pattern as core pages).
 3. Copy over the two legal pages as-is.
 4. Only then move to the actual Next.js build/migration.
+
+# skills that i will use to audit the frontend design system
+https://github.com/voltagent/awesome-design-md
