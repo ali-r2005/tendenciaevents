@@ -1,1 +1,0 @@
-we will start by the name of the project that is : tendenciaevents
