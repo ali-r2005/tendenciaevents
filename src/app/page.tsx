@@ -26,7 +26,7 @@ export default function Home() {
           </nav>
           <a
             href="/contact-us"
-            className="text-[13px] font-medium px-4 py-1.5 rounded-custom border border-brand-border text-brand-neutral hover:border-brand-green hover:bg-brand-green hover:text-white transition-all"
+            className="text-[13px] font-medium px-4 py-1.5 rounded-custom bg-brand-green text-white hover:bg-brand-blue transition-colors"
           >
             Need Inspiration
           </a>
@@ -40,19 +40,19 @@ export default function Home() {
             className="rounded-custom overflow-hidden bg-brand-neutral bg-cover bg-center h-[560px] sm:h-[640px] lg:h-[700px] relative w-full flex items-center justify-center p-6 shadow-2xl"
             style={{ backgroundImage: "url('/BG.jpg')" }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-black/60" />
+            <div className="absolute inset-0 " />
             <div className="absolute inset-2 sm:inset-4 border border-white/15 rounded-[4px] pointer-events-none" />
-            <div className="absolute top-8 text-center text-white/70 text-[11px] tracking-[0.25em] uppercase">
+            {/* <div className="absolute top-8 text-center text-white/70 text-[11px] tracking-[0.25em] uppercase">
               Tangier &amp; Marrakech · Morocco
-            </div>
+            </div> */}
             <div className="relative z-10 text-center max-w-3xl px-4 flex flex-col items-center">
               <h1 className="font-display text-4xl sm:text-6xl lg:text-[64px] font-normal tracking-tight text-white leading-[1.1] mb-6">
                 Event Management &amp; Team Building Agency in Morocco
               </h1>
-              <p className="text-white/85 text-base sm:text-lg font-light mb-3">
+              <p className="text-white/85 text-lg sm:text-xl font-light mb-3">
                 Creating Memories, tailored with care — Yes, We Can DARE!
               </p>
-              <p className="text-white/70 text-sm sm:text-base max-w-xl mx-auto mb-10">
+              <p className="text-white/70 text-base sm:text-lg max-w-xl mx-auto mb-10">
                 Tendencia Events &amp; Travel designs and delivers corporate
                 events, team building programs, and incentive travel
                 experiences across Morocco — with dedicated offices in
@@ -61,7 +61,7 @@ export default function Home() {
               </p>
               <a
                 href="/contact-us"
-                className="bg-brand-green hover:bg-brand-green/90 transition-colors px-8 py-3.5 rounded-custom text-white text-[13px] font-medium tracking-wide uppercase flex items-center gap-3"
+                className="bg-brand-green hover:bg-brand-blue transition-colors px-8 py-3.5 rounded-custom text-white text-[13px] font-medium tracking-wide uppercase flex items-center gap-3"
               >
                 Need Inspiration
               </a>
@@ -78,7 +78,7 @@ export default function Home() {
               </span>
             </div>
             <div className="md:col-span-9">
-              <p className="font-display text-2xl sm:text-3xl lg:text-[34px] leading-[1.3] font-normal text-brand-neutral">
+              <p className="font-display text-3xl sm:text-4xl lg:text-[40px] leading-[1.3] font-normal text-brand-neutral">
                 Every event we manage in Morocco — from corporate seminars to
                 large-scale incentive trips — is guided by six principles
                 that define how our team works with you, from first brief to
@@ -118,7 +118,7 @@ export default function Home() {
                 <h3 className="font-display text-xl text-brand-neutral font-normal">
                   {pillar.title}
                 </h3>
-                <p className="text-[14px] text-brand-muted leading-relaxed">{pillar.body}</p>
+                <p className="text-[15px] text-brand-muted leading-relaxed">{pillar.body}</p>
               </div>
             ))}
           </div>
@@ -133,7 +133,7 @@ export default function Home() {
             <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
               Full-service event &amp; destination management
             </h2>
-            <p className="text-[14px] text-brand-muted leading-relaxed max-w-2xl pt-2">
+            <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
               As a full-service event management and destination management
               company (DMC) in Morocco, Tendencia covers every stage of your
               event or corporate trip — from destination management and
@@ -216,31 +216,26 @@ export default function Home() {
                 <span className="text-xs font-medium text-brand-green">
                   0{i + 1}
                 </span>
-                <p className="text-[14px] text-brand-muted leading-relaxed">{step}</p>
+                <p className="text-[16px] text-brand-muted leading-relaxed">{step}</p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Quote break */}
-        <section className="w-full">
-          <div className="rounded-custom overflow-hidden h-[300px] sm:h-[360px] relative w-full flex items-center justify-center p-8 bg-brand-neutral">
-            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-black/70" />
-            <div className="relative z-10 max-w-3xl text-center px-4">
-              <p className="font-display text-2xl sm:text-4xl leading-[1.3] text-white font-normal">
-                &ldquo;Tendencia brilliantly managed our event, even at the
-                last minute. Their team perfectly understood our needs and
-                orchestrated every detail with impeccable precision.&rdquo;
-              </p>
-              <span className="inline-block mt-4 text-xs uppercase tracking-[0.25em] text-brand-yellow">
-                Adil Ettouhami, Foliatech
-              </span>
-            </div>
-          </div>
-        </section>
-
         {/* Testimonials */}
         <section id="testimonials" className="space-y-8">
+          <style>{`
+            @keyframes scroll {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-50%); }
+            }
+            .testimonials-scroll {
+              animation: scroll 30s linear infinite;
+            }
+            .testimonials-scroll:hover {
+              animation-play-state: paused;
+            }
+          `}</style>
           <div className="space-y-2">
             <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
               Client Testimonials
@@ -248,61 +243,106 @@ export default function Home() {
             <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
               Trusted across Morocco and beyond
             </h2>
-            <p className="text-[14px] text-brand-muted leading-relaxed max-w-2xl pt-2">
+            <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
               Trusted by leading organizations across Morocco and
               internationally for corporate events, seminars, and incentive
               travel — including Accor, The World Bank, Lear Corporation, and
               Ciments du Maroc.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
-            {[
-              {
-                quote:
-                  "The organization of our event by Tendencia was impeccable. Every detail was carefully considered, with remarkable creativity in crafting solutions.",
-                author: "Gustavo Ruiz Checo Trigo",
-              },
-              {
-                quote:
-                  "For the celebration of our centenary, we were extremely satisfied with the organization by Tendencia.",
-                author: "Amina Essaoudi, Lear Corporation",
-              },
-              {
-                quote:
-                  "The collaboration with Tendencia during the CHAN 2018 in Tangier was exemplary. Their agency brilliantly conducted the audit and quality management control.",
-                author: "Kenza Baghdadli, Moroccan Football Federation",
-              },
-              {
-                quote:
-                  "The organization of our event by Tendencia exceeded our expectations. Their team was able to capture the essence of our brand.",
-                author: "Alice Rahou, Accor",
-              },
-              {
-                quote: "Thanks to Tendencia, our event at the Port of Tangier City was a total success.",
-                author: "Rajae El Hannach, Port of Tangier City",
-              },
-              {
-                quote: "Collaborating with Tendencia was an enriching experience. Their team demonstrated exceptional expertise.",
-                author: "Lamia El Akkad, Experience Morocco",
-              },
-              {
-                quote: "The organization of our event by Tendencia was flawless. Their team was able to meet the high standards of our institution.",
-                author: "Sultana Ajem, The World Bank",
-              },
-              {
-                quote: "We were very satisfied with the organization of our event by Tendencia for Ciments du Maroc.",
-                author: "Ghita Kbila, Ciments du Maroc",
-              },
-            ].map((t) => (
-              <blockquote key={t.author} className="bg-brand-subtle p-6 rounded-custom">
-                <p className="text-[14px] text-brand-neutral leading-relaxed">
-                  &ldquo;{t.quote}&rdquo;
-                </p>
-                <footer className="mt-3 text-[13px] font-medium text-brand-muted">
-                  {t.author}
-                </footer>
-              </blockquote>
-            ))}
+          <div className="relative w-full overflow-hidden pt-4">
+            <div className="flex gap-6 testimonials-scroll">
+              {[
+                {
+                  quote: "Tendencia brilliantly managed our event, even at the last minute. Their team perfectly understood our needs and orchestrated every detail with impeccable precision.",
+                  author: "Adil Ettouhami, Foliatech",
+                },
+                {
+                  quote: "The organization of our event by Tendencia was impeccable. Every detail was carefully considered, with remarkable creativity in crafting solutions.",
+                  author: "Gustavo Ruiz Checo Trigo",
+                },
+                {
+                  quote: "For the celebration of our centenary, we were extremely satisfied with the organization by Tendencia.",
+                  author: "Amina Essaoudi, Lear Corporation",
+                },
+                {
+                  quote: "The collaboration with Tendencia during the CHAN 2018 in Tangier was exemplary. Their agency brilliantly conducted the audit and quality management control.",
+                  author: "Kenza Baghdadli, Moroccan Football Federation",
+                },
+                {
+                  quote: "The organization of our event by Tendencia exceeded our expectations. Their team was able to capture the essence of our brand.",
+                  author: "Alice Rahou, Accor",
+                },
+                {
+                  quote: "Thanks to Tendencia, our event at the Port of Tangier City was a total success.",
+                  author: "Rajae El Hannach, Port of Tangier City",
+                },
+                {
+                  quote: "Collaborating with Tendencia was an enriching experience. Their team demonstrated exceptional expertise.",
+                  author: "Lamia El Akkad, Experience Morocco",
+                },
+                {
+                  quote: "The organization of our event by Tendencia was flawless. Their team was able to meet the high standards of our institution.",
+                  author: "Sultana Ajem, The World Bank",
+                },
+                {
+                  quote: "We were very satisfied with the organization of our event by Tendencia for Ciments du Maroc.",
+                  author: "Ghita Kbila, Ciments du Maroc",
+                },
+              ].map((t) => (
+                <blockquote key={t.author} className="flex-shrink-0 w-[320px] sm:w-[400px] bg-brand-subtle p-6 rounded-custom border border-brand-border">
+                  <p className="text-[15px] text-brand-neutral leading-relaxed mb-4">
+                    &ldquo;{t.quote}&rdquo;
+                  </p>
+                  <footer className="text-[13px] font-medium text-brand-muted">
+                    {t.author}
+                  </footer>
+                </blockquote>
+              ))}
+              {[
+                {
+                  quote: "Tendencia brilliantly managed our event, even at the last minute. Their team perfectly understood our needs and orchestrated every detail with impeccable precision.",
+                  author: "Adil Ettouhami, Foliatech",
+                },
+                {
+                  quote: "The organization of our event by Tendencia was impeccable. Every detail was carefully considered, with remarkable creativity in crafting solutions.",
+                  author: "Gustavo Ruiz Checo Trigo",
+                },
+                {
+                  quote: "For the celebration of our centenary, we were extremely satisfied with the organization by Tendencia.",
+                  author: "Amina Essaoudi, Lear Corporation",
+                },
+                {
+                  quote: "The collaboration with Tendencia during the CHAN 2018 in Tangier was exemplary. Their agency brilliantly conducted the audit and quality management control.",
+                  author: "Kenza Baghdadli, Moroccan Football Federation",
+                },
+                {
+                  quote: "The organization of our event by Tendencia exceeded our expectations. Their team was able to capture the essence of our brand.",
+                  author: "Alice Rahou, Accor",
+                },
+                {
+                  quote: "Thanks to Tendencia, our event at the Port of Tangier City was a total success.",
+                  author: "Rajae El Hannach, Port of Tangier City",
+                },
+                {
+                  quote: "Collaborating with Tendencia was an enriching experience. Their team demonstrated exceptional expertise.",
+                  author: "Lamia El Akkad, Experience Morocco",
+                },
+                {
+                  quote: "The organization of our event by Tendencia was flawless. Their team was able to meet the high standards of our institution.",
+                  author: "Sultana Ajem, The World Bank",
+                },
+              ].map((t) => (
+                <blockquote key={`${t.author}-dupe`} className="flex-shrink-0 w-[320px] sm:w-[400px] bg-brand-subtle p-6 rounded-custom border border-brand-border">
+                  <p className="text-[15px] text-brand-neutral leading-relaxed mb-4">
+                    &ldquo;{t.quote}&rdquo;
+                  </p>
+                  <footer className="text-[13px] font-medium text-brand-muted">
+                    {t.author}
+                  </footer>
+                </blockquote>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -325,7 +365,7 @@ export default function Home() {
               { name: "Fatimazahra Bakkali", role: "Production Project Manager" },
             ].map((member) => (
               <div key={member.name} className="border-t border-brand-border pt-4">
-                <p className="font-medium text-brand-neutral text-[14px]">{member.name}</p>
+                <p className="font-medium text-brand-neutral text-[16px]">{member.name}</p>
                 <p className="text-[13px] text-brand-muted">{member.role}</p>
               </div>
             ))}
@@ -334,10 +374,9 @@ export default function Home() {
 
         {/* CTA banner */}
         <section className="w-full">
-          <div className="rounded-custom overflow-hidden bg-brand-neutral h-[380px] sm:h-[440px] relative w-full flex items-center justify-center p-6 text-center shadow-xl">
-            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/70" />
+          <div className="rounded-custom overflow-hidden h-[380px] sm:h-[440px] relative w-full flex items-center justify-center p-6 text-center shadow-xl" style={{ background: "linear-gradient(135deg, #147f4c 0%, #2497cd 50%, #f4c71a 100%)" }}>
             <div className="relative z-10 max-w-2xl px-4 flex flex-col items-center">
-              <span className="text-xs uppercase tracking-[0.25em] text-brand-yellow mb-4">
+              <span className="text-xs uppercase tracking-[0.25em] text-white mb-4">
                 Tangier &amp; Marrakech · Nationwide across Morocco
               </span>
               <h2 className="font-display text-3xl sm:text-5xl text-white font-normal mb-8 leading-tight">
@@ -345,7 +384,7 @@ export default function Home() {
               </h2>
               <a
                 href="/contact-us"
-                className="bg-brand-green hover:bg-brand-green/90 transition-colors px-8 py-3.5 rounded-custom text-white text-[13px] font-medium tracking-wide uppercase"
+                className="bg-white hover:bg-brand-yellow transition-colors px-8 py-3.5 rounded-custom text-brand-green text-[13px] font-medium tracking-wide uppercase"
               >
                 Get a Quote
               </a>
@@ -359,11 +398,11 @@ export default function Home() {
             <h3 className="font-display text-xl text-brand-neutral font-normal">
               Event Management &amp; Team Building Agency in Tangier
             </h3>
-            <p className="mt-2 text-[14px] text-brand-muted">
+            <p className="mt-2 text-[16px] text-brand-muted">
               Avenue Moulay Ismail, rue de Marrakech, Résidence Volubilis C,
               1er étage, bureau 51, 90000 Tanger
             </p>
-            <p className="mt-2 text-[14px] text-brand-muted">
+            <p className="mt-2 text-[16px] text-brand-muted">
               Tel: +(212) 6 62 47 88 51 | +(212) 5 31 56 55 10
             </p>
           </div>
@@ -371,14 +410,14 @@ export default function Home() {
             <h3 className="font-display text-xl text-brand-neutral font-normal">
               Event Management &amp; Team Building Agency in Marrakech
             </h3>
-            <p className="mt-2 text-[14px] text-brand-muted">
+            <p className="mt-2 text-[16px] text-brand-muted">
               Résidence La Carelle Atlas Immeuble H6 Étage 3 N°21
             </p>
-            <p className="mt-2 text-[14px] text-brand-muted">
+            <p className="mt-2 text-[16px] text-brand-muted">
               Tel: +(212) 6 62 47 88 51 | +(212) 5 39 32 01 91
             </p>
           </div>
-          <p className="sm:col-span-2 text-[14px] text-brand-muted pt-2 border-t border-brand-border">
+          <p className="sm:col-span-2 text-[16px] text-brand-muted pt-2 border-t border-brand-border">
             Main contact: +(212) 5 39 32 01 91 | info@tendenciaevents.com
           </p>
         </section>
@@ -390,7 +429,7 @@ export default function Home() {
           <h3 className="font-display text-2xl sm:text-3xl text-brand-neutral font-normal mb-3">
             Creating Memories, tailored with care.
           </h3>
-          <p className="text-[14px] text-brand-muted max-w-3xl leading-relaxed">
+          <p className="text-[16px] text-brand-muted max-w-3xl leading-relaxed">
             Corporate events, team building, and incentive travel across
             Morocco — with dedicated offices in Tangier and Marrakech.
           </p>
