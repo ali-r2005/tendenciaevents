@@ -8,20 +8,19 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="w-full bg-brand-canvas/95 border-b border-brand-border sticky top-0 z-50 backdrop-blur-md">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <a href="/" className="flex items-center gap-2 group">
-          <span className="w-2.5 h-2.5 rounded-full bg-brand-green transition-transform group-hover:scale-125 duration-300" />
-          <span className="text-[19px] font-medium tracking-tight text-brand-neutral">
-            {t.header.brand}
+    <header className="w-full pt-2 px-4 sm:px-6 sticky top-2 z-50">
+      <div className="max-w-[1140px] mx-auto bg-white rounded-custom shadow-lg border border-brand-border/60 px-3 sm:px-4 h-16 flex items-center justify-between">
+        <a href="/" className="flex items-center gap-2 group pl-1">
+          <span className="w-8 h-8 rounded-full bg-brand-green text-white flex items-center justify-center text-sm font-medium">
+            T
           </span>
         </a>
-        <nav className="hidden md:flex items-center gap-8 text-[13px] tracking-wide text-brand-muted">
+        <nav className="hidden md:flex items-center gap-8 text-[13px] font-medium tracking-wide text-brand-neutral">
           {t.header.nav.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="hover:text-brand-yellow transition-colors"
+              className="hover:text-brand-green transition-colors"
             >
               {item.label}
             </a>
@@ -30,7 +29,7 @@ export function Header() {
         <div className="flex items-center gap-3">
           <a
             href="/contact-us"
-            className="hidden sm:inline-block text-[13px] font-medium px-4 py-1.5 rounded-custom bg-brand-green text-white hover:bg-brand-blue transition-colors"
+            className="hidden sm:inline-block text-[13px] font-medium px-5 py-2.5 rounded-custom bg-brand-green text-white hover:bg-brand-blue transition-colors"
           >
             {t.header.cta}
           </a>
@@ -42,18 +41,18 @@ export function Header() {
             className="md:hidden flex flex-col items-center justify-center gap-1.5 w-9 h-9 rounded-custom border border-brand-border"
           >
             <span
-              className={`block w-5 h-[2px] bg-brand-neutral transition-transform duration-200 ${
-                isMenuOpen ? "translate-y-[7px] rotate-45" : ""
+              className={`block w-4 h-[2px] bg-brand-neutral transition-transform duration-200 ${
+                isMenuOpen ? "translate-y-[6px] rotate-45" : ""
               }`}
             />
             <span
-              className={`block w-5 h-[2px] bg-brand-neutral transition-opacity duration-200 ${
+              className={`block w-4 h-[2px] bg-brand-neutral transition-opacity duration-200 ${
                 isMenuOpen ? "opacity-0" : "opacity-100"
               }`}
             />
             <span
-              className={`block w-5 h-[2px] bg-brand-neutral transition-transform duration-200 ${
-                isMenuOpen ? "-translate-y-[7px] -rotate-45" : ""
+              className={`block w-4 h-[2px] bg-brand-neutral transition-transform duration-200 ${
+                isMenuOpen ? "-translate-y-[6px] -rotate-45" : ""
               }`}
             />
           </button>
@@ -61,13 +60,13 @@ export function Header() {
       </div>
 
       {isMenuOpen && (
-        <nav className="md:hidden border-t border-brand-border bg-brand-canvas px-4 sm:px-6 py-4 flex flex-col gap-4 text-[14px] text-brand-muted">
+        <nav className="md:hidden max-w-[1140px] mx-auto mt-2 bg-white rounded-custom shadow-lg border border-brand-border/60 px-4 sm:px-6 py-4 flex flex-col gap-4 text-[14px] text-brand-neutral">
           {t.header.nav.map((item) => (
             <a
               key={item.href}
               href={item.href}
               onClick={() => setIsMenuOpen(false)}
-              className="hover:text-brand-yellow transition-colors"
+              className="hover:text-brand-green transition-colors"
             >
               {item.label}
             </a>

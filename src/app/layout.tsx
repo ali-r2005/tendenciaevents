@@ -29,7 +29,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${hammersmithOne.variable} ${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-sans">
+      <body
+        className="min-h-full flex flex-col font-sans"
+        style={{
+          backgroundImage: "linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('/bg.webp')",
+          backgroundRepeat: "repeat",
+        }}
+      >
         <Header />
         {children}
         <Footer />
