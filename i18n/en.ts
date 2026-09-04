@@ -200,10 +200,27 @@ export const en = {
   },
 
   footer: {
-    heading: "Creating Memories, tailored with care.",
-    description:
-      "Corporate events, team building, and incentive travel across Morocco — with dedicated offices in Tangier and Marrakech.",
     copyright: "Copyright © 2026 Tendencia Events & Travel | All Rights Reserved",
+    nav: [
+      { label: "About us", href: "/about-us" },
+      { label: "Services", href: "#services" },
+      { label: "Blog", href: "/blog" },
+      { label: "Team Building Morocco", href: "/team-building-morocco" },
+      { label: "Catalyst.ma", href: "https://catalyst.ma" },
+      { label: "E-brochures", href: "/e-brochures" },
+    ],
+    cta: "Contact Us",
+    social: [
+      { label: "TikTok", href: "https://www.tiktok.com" },
+      { label: "Instagram", href: "https://www.instagram.com" },
+      { label: "LinkedIn", href: "https://www.linkedin.com" },
+      { label: "YouTube", href: "https://www.youtube.com" },
+    ],
+    languages: [
+      { label: "English", href: "/en" },
+      { label: "Spanish", href: "/es" },
+      { label: "Français", href: "/fr" },
+    ],
     links: [
       { label: "Terms and Conditions", href: "/terms-and-conditions" },
       { label: "Privacy Policy", href: "/privacy-policy" },
