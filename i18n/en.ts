@@ -479,6 +479,119 @@ export const en = {
     ],
   },
 
+  aboutUsPage: {
+    meta: {
+      title: "About Tendencia — Event Management Agency in Morocco",
+      description:
+        "Meet the team behind Tendencia Events & Travel, a Morocco-based event management and destination management company with offices in Tangier and Marrakech, delivering events nationwide.",
+    },
+    label: "About Us",
+    title: "About Tendencia Events & Travel",
+    intro: "Discover the story behind our commitment to creating unforgettable experiences.",
+    story: {
+      label: "Our Story",
+      paragraphs: [
+        "As the founder and CEO of Tendencia Events & Travel, I'm thrilled to share our journey with you.",
+        "Our story began with a simple yet powerful vision – to create experiences that leave a lasting impression.",
+        "From our humble beginnings, Tendencia has grown into a trusted name in the event management and destination management industry in Morocco, with offices in Tangier and Marrakech serving clients nationwide.",
+        "At Tendencia, we believe in the power of innovation, the importance of collaboration, and the ultimate goal of client satisfaction.",
+        "Together, let's create unforgettable experiences that inspire, delight, and leave a lasting legacy.",
+      ],
+      signatureName: "Nabih Kabbaj",
+      signatureRole: "Founder & CEO",
+    },
+    mission: {
+      label: "Mission & Values",
+      title: "Our mission at Tendencia is to inspire creativity, motivate teams, and deliver exceptional experiences tailored to our clients' needs.",
+      valuesLabel: "Core Values",
+      values: [
+        { title: "Passion", body: "We are driven by a passion for creating unforgettable moments" },
+        { title: "Innovation", body: "Constantly pushing boundaries and exploring new ideas" },
+        { title: "Excellence", body: "We are committed to excellence in everything we do" },
+        { title: "Collaboration", body: "We believe in the power of collaboration" },
+      ],
+    },
+    whyChoose: {
+      label: "Why Choose Tendencia",
+      items: [
+        { title: "Personalized Approach", body: "we tailor our services to your unique needs" },
+        { title: "Commitment to Excellence", body: "Excellence is our standard at Tendencia" },
+        { title: "Creative Innovation", body: "we push boundaries and embrace new ideas" },
+        {
+          title: "Proven Track Record",
+          body: "years of experience and a diverse portfolio across corporate events, destination management, and MICE programs in Morocco",
+        },
+      ],
+    },
+    faq: {
+      label: "FAQ",
+      title: "Frequently Asked Questions",
+      items: [
+        {
+          question: "What services does Tendencia Events & Travel offer?",
+          answer:
+            "Tendencia Events & Travel specializes in a wide range of event planning and travel management services in Morocco, including destination management (DMC), event production, event management, team-building activities, incentive seminars (PCO), and receptive services.",
+          linkLabel: "See all services →",
+          href: "/services",
+        },
+        {
+          question: "How does Tendencia ensure the success of an event?",
+          answer:
+            "Our team works closely with clients to understand their vision and goals, then crafts a customized strategy that covers every detail — from initial planning and vendor coordination to on-site execution and post-event reporting.",
+        },
+        {
+          question: "Can Tendencia handle last-minute changes or adjustments?",
+          answer:
+            "Our team is highly adaptable and skilled at managing unexpected changes or last-minute adjustments, drawing on our experience coordinating events under tight timelines across Morocco.",
+        },
+        {
+          question: "What types of clients does Tendencia work with?",
+          answer:
+            "Tendencia Events & Travel works with a diverse range of clients, including corporate clients, small businesses, non-profits, and individual travelers — from multinational companies to local organizations across Morocco.",
+        },
+        {
+          question: "How can I get started with Tendencia?",
+          answer: "Simply reach out to us via our contact form, email, or phone. Our team will schedule an initial consultation.",
+          linkLabel: "Contact us →",
+          href: "/contact-us",
+        },
+        {
+          question: "Does Tendencia operate outside Tangier and Marrakech?",
+          answer:
+            "Yes. While our offices are based in Tangier and Marrakech, Tendencia designs and delivers events and incentive travel programs across Morocco nationwide.",
+        },
+      ],
+    },
+  },
+
+  contactUsPage: {
+    meta: {
+      title: "Contact Tendencia Events & Travel | Event Agency Morocco",
+      description:
+        "Get in touch with Tendencia Events & Travel for a custom event management quote in Morocco. Offices in Tangier and Marrakech — call, email, or request a quote online.",
+    },
+    label: "Contact Us",
+    title: "Contact Us",
+    intro:
+      "Tendencia Events & Travel is here to bring your vision to life. Whether you're planning a corporate event, incentive trip, or seminar in Tangier, Marrakech, or anywhere in Morocco, reach out to us for your custom event or travel experience.",
+    form: {
+      title: "Get a Quote",
+      fields: {
+        firstName: "First name*",
+        lastName: "Last name*",
+        email: "Email*",
+        company: "Company name*",
+        phone: "Phone number",
+        poste: "Poste (Optional)",
+        message: "Message",
+      },
+      submit: "Get a Quote",
+    },
+    contactInfoLabel: "Contact Information",
+    phone: "Tel: +(212) 5 39 32 01 91",
+    email: "Email: info@tendenciaevents.com",
+  },
+
   footer: {
     copyright: "Copyright © 2026 Tendencia Events & Travel | All Rights Reserved",
     nav: [
