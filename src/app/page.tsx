@@ -24,7 +24,7 @@ export default function Home() {
             <div className="absolute inset-0 " />
             <div className="absolute inset-2 sm:inset-4 border border-white/15 rounded-[4px] pointer-events-none" />
             <div className="relative z-10 text-center max-w-3xl px-4 flex flex-col items-center">
-              <span className="inline-block bg-white/10 border border-white/25 backdrop-blur-sm text-white/90 text-[13px] sm:text-sm font-medium px-4 py-1.5 rounded-full mb-6">
+              <span className="inline-block bg-white/10 border border-white/25 backdrop-blur-sm text-white/90 text-[13px] sm:text-sm font-medium px-4 py-1.5 rounded-custom mb-6">
                 {t.hero.tagline}
               </span>
               <h1 className="font-display text-4xl sm:text-6xl lg:text-[64px] font-normal tracking-tight text-white leading-[1.1] mb-6">

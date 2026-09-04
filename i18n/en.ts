@@ -208,11 +208,55 @@ export const en = {
     mainContact: "Main contact: +(212) 5 39 32 01 91 | info@tendenciaevents.com",
   },
 
+  servicesPage: {
+    meta: {
+      title: "Event Management Services Morocco | Tendencia Events & Travel",
+      description:
+        "Full-service event management in Morocco: destination management (DMC), event production, incentive seminars & PCO, team building, and receptive services — from our teams in Tangier and Marrakech.",
+    },
+    label: "Our Services",
+    title: "Our Event Management Services in Morocco",
+    intro:
+      "Tendencia Events & Travel offers a full range of specialized event management and destination management services across Morocco. From first concept to final execution, our teams in Tangier and Marrakech combine local MICE expertise with an obsessive focus on detail to deliver corporate events, incentive travel, and team building programs that meet every need.",
+    items: [
+      {
+        title: "Destination Management (DMC Morocco)",
+        body: "Our expert Destination Managers provide top-notch guidance and industry best practices to turn your vision into reality, ensuring an exceptional experience.",
+        href: "/services/destination-management",
+      },
+      {
+        title: "Event Management",
+        body: "Let us handle all aspects of your event, including logistics, vendor coordination, décor, and guest management, for a seamless experience.",
+        href: "/services/event-management",
+      },
+      {
+        title: "Incentive Seminar - PCO",
+        body: "As a Professional Congress Organizer (PCO), we excel in crafting motivating seminars and corporate events. Our bespoke incentive programs boost productivity, reward top performers, and strengthen team loyalty.",
+        href: "/services/incentive-seminar-pco",
+      },
+      {
+        title: "Event Production",
+        body: "From lighting and set design to sound systems and special effects, we deliver top-notch event production for a visually and audibly stunning experience.",
+        href: "/services/event-production",
+      },
+      {
+        title: "Receptive Services",
+        body: "We provide full-service support for international clients, including airport transfers, accommodation, guided tours, and leisure activities, ensuring a seamless and enjoyable stay with 24/7 assistance.",
+        href: "/services/receptive-services",
+      },
+      {
+        title: "Team Building",
+        body: "Foster team cohesion and achieve common goals with our engaging team-building activities across Morocco.",
+        href: "/services/team-building",
+      },
+    ],
+  },
+
   footer: {
     copyright: "Copyright © 2026 Tendencia Events & Travel | All Rights Reserved",
     nav: [
       { label: "About us", href: "/about-us" },
-      { label: "Services", href: "#services" },
+      { label: "Services", href: "/services" },
       { label: "Blog", href: "/blog" },
       { label: "Team Building Morocco", href: "/team-building-morocco" },
       { label: "Catalyst.ma", href: "https://catalyst.ma" },
