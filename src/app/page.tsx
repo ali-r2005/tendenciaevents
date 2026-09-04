@@ -18,7 +18,7 @@ export default function Home() {
         {/* Hero */}
         <section className="w-full">
           <div
-            className="rounded-custom overflow-hidden bg-brand-neutral bg-cover bg-center h-[560px] sm:h-[640px] lg:h-[700px] relative w-full flex items-center justify-center p-6 shadow-2xl"
+            className="rounded-custom overflow-hidden bg-brand-neutral bg-cover bg-center min-h-[620px] sm:min-h-[640px] lg:min-h-[700px] relative w-full flex items-center justify-center p-6 py-16 sm:py-6 shadow-2xl"
             style={{ backgroundImage: "url('/BG.jpg')" }}
           >
             <div className="absolute inset-0 " />

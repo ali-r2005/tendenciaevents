@@ -247,7 +247,7 @@ export const en = {
       {
         title: "Team Building",
         body: "Foster team cohesion and achieve common goals with our engaging team-building activities across Morocco.",
-        href: "/services/team-building",
+        href: "https://teambuildingmorocco.com",
       },
     ],
   },
@@ -501,8 +501,9 @@ export const en = {
       signatureRole: "Founder & CEO",
     },
     mission: {
-      label: "Mission & Values",
-      title: "Our mission at Tendencia is to inspire creativity, motivate teams, and deliver exceptional experiences tailored to our clients' needs.",
+      label: "Who We Are",
+      title: "Mission & Values",
+      intro: "Our mission at Tendencia is to inspire creativity, motivate teams, and deliver exceptional experiences tailored to our clients' needs.",
       valuesLabel: "Core Values",
       values: [
         { title: "Passion", body: "We are driven by a passion for creating unforgettable moments" },
@@ -598,7 +599,7 @@ export const en = {
       { label: "About us", href: "/about-us" },
       { label: "Services", href: "/services" },
       { label: "Blog", href: "/blog" },
-      { label: "Team Building Morocco", href: "/team-building-morocco" },
+      { label: "Team Building Morocco", href: "https://teambuildingmorocco.com" },
       { label: "Catalyst.ma", href: "https://catalyst.ma" },
       { label: "E-brochures", href: "/e-brochures" },
     ],

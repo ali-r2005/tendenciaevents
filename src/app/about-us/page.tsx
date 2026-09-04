@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { getDictionary } from "../../../i18n";
+import { FAQAccordion } from "@/components/FAQAccordion";
 
 const dictionary = getDictionary();
 
@@ -14,35 +15,53 @@ export default function AboutUs() {
   return (
     <main className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
       {/* Hero */}
-      <section className="space-y-8 pt-8">
-        <div className="space-y-2 max-w-2xl">
-          <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
-            {t.aboutUsPage.label}
-          </span>
-          <h1 className="font-display text-4xl sm:text-6xl font-normal text-brand-neutral tracking-tight">
-            {t.aboutUsPage.title}
-          </h1>
-          <p className="text-[16px] text-brand-muted leading-relaxed pt-2">
-            {t.aboutUsPage.intro}
-          </p>
+      <section className="w-full">
+        <div
+          className="rounded-custom overflow-hidden bg-brand-neutral bg-cover bg-center h-[280px] sm:h-[340px] lg:h-[380px] relative w-full flex items-center justify-center p-6 shadow-2xl"
+          style={{ backgroundImage: "url('/BG.jpg')" }}
+        >
+          <div className="absolute inset-0 " />
+          <div className="absolute inset-2 sm:inset-4 border border-white/15 rounded-[4px] pointer-events-none" />
+          <div className="relative z-10 text-center max-w-3xl px-4 flex flex-col items-center">
+            <span className="inline-block bg-white/10 border border-white/25 backdrop-blur-sm text-white/90 text-[13px] sm:text-sm font-medium px-4 py-1.5 rounded-custom mb-6">
+              {t.aboutUsPage.label}
+            </span>
+            <h1 className="font-display text-4xl sm:text-6xl lg:text-[64px] font-normal tracking-tight text-white leading-[1.1] mb-6">
+              {t.aboutUsPage.title}
+            </h1>
+            <p className="text-white/70 text-base sm:text-lg max-w-xl mx-auto">
+              {t.aboutUsPage.intro}
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Our Story */}
       <section className="space-y-8">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
-          <div className="md:col-span-8 space-y-4">
-            <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
+          <div className="md:col-span-7 space-y-2">
+            <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
               {t.aboutUsPage.story.label}
-            </span>
-            {t.aboutUsPage.story.paragraphs.map((paragraph) => (
-              <p key={paragraph} className="text-[16px] text-brand-muted leading-relaxed">
-                {paragraph}
+            </h2>
+            <div className="space-y-4 pt-4">
+              {t.aboutUsPage.story.paragraphs.map((paragraph) => (
+                <p key={paragraph} className="text-[16px] text-brand-muted leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
+              <p className="text-brand-neutral font-medium pt-2">
+                — {t.aboutUsPage.story.signatureName}, {t.aboutUsPage.story.signatureRole}
               </p>
-            ))}
-            <p className="text-brand-neutral font-medium pt-2">
-              — {t.aboutUsPage.story.signatureName}, {t.aboutUsPage.story.signatureRole}
-            </p>
+            </div>
+          </div>
+          <div className="md:col-span-5">
+            <div className="w-full h-64 sm:h-80 bg-brand-canvas rounded-custom overflow-hidden border border-brand-border">
+              <img
+                src="/our-story.webp"
+                alt="Our Story"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -56,6 +75,9 @@ export default function AboutUs() {
           <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
             {t.aboutUsPage.mission.title}
           </h2>
+          <p className="text-[16px] text-brand-muted leading-relaxed pt-2">
+            {t.aboutUsPage.mission.intro}
+          </p>
         </div>
         <div className="space-y-4 pt-2">
           <h3 className="font-medium text-brand-neutral">{t.aboutUsPage.mission.valuesLabel}</h3>
@@ -134,29 +156,7 @@ export default function AboutUs() {
             {t.aboutUsPage.faq.title}
           </h2>
         </div>
-        <div className="grid grid-cols-1 gap-4 pt-4">
-          {t.aboutUsPage.faq.items.map((item) => (
-            <div
-              key={item.question}
-              className="bg-brand-subtle border border-brand-border rounded-custom p-6 space-y-2 hover:border-brand-green transition-colors duration-200"
-            >
-              <h3 className="font-display text-lg text-brand-neutral font-normal">
-                {item.question}
-              </h3>
-              <p className="text-[15px] text-brand-muted leading-relaxed">
-                {item.answer}
-                {item.href && item.linkLabel ? (
-                  <>
-                    {" "}
-                    <a href={item.href} className="text-brand-green font-medium">
-                      {item.linkLabel}
-                    </a>
-                  </>
-                ) : null}
-              </p>
-            </div>
-          ))}
-        </div>
+        <FAQAccordion items={t.aboutUsPage.faq.items} />
       </section>
 
       {/* CTA banner */}
