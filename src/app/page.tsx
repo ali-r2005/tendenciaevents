@@ -48,16 +48,27 @@ export default function Home() {
 
         {/* The Tendencia Way */}
         <section id="pillars" className="space-y-8">
-          <div className="space-y-2">
-            <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
-              {t.pillars.label}
-            </span>
-            <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-              The Tendencia Way — Six Core Values
-            </h2>
-            <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
-              {t.pillars.intro}
-            </p>
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
+            <div className="md:col-span-7 space-y-2">
+              <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
+                {t.pillars.label}
+              </span>
+              <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
+                The Tendencia Way — Six Core Values
+              </h2>
+              <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
+                {t.pillars.intro}
+              </p>
+            </div>
+            <div className="md:col-span-5">
+              <div className="w-full h-64 sm:h-80 bg-brand-canvas rounded-custom overflow-hidden border border-brand-border">
+                <img
+                  src="/pillars-image.jpg"
+                  alt="The Tendencia Way"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-4">
@@ -74,16 +85,27 @@ export default function Home() {
 
         {/* Services */}
         <section id="services" className="space-y-8">
-          <div className="space-y-2">
-            <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
-              {t.services.label}
-            </span>
-            <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-              {t.services.title}
-            </h2>
-            <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
-              {t.services.intro}
-            </p>
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
+            <div className="md:col-span-7 space-y-2">
+              <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
+                {t.services.label}
+              </span>
+              <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
+                {t.services.title}
+              </h2>
+              <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
+                {t.services.intro}
+              </p>
+            </div>
+            <div className="md:col-span-5">
+              <div className="w-full h-64 sm:h-80 bg-brand-canvas rounded-custom overflow-hidden border border-brand-border">
+                <img
+                  src="/services-image.jpg"
+                  alt="Tendencia Events services"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pt-6">
