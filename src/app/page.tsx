@@ -13,34 +13,6 @@ export default function Home() {
 
   return (
     <>
-      {/* Header */}
-      <header className="w-full bg-brand-canvas/95 border-b border-brand-border sticky top-0 z-50 backdrop-blur-md">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 group">
-            <span className="w-2.5 h-2.5 rounded-full bg-brand-green transition-transform group-hover:scale-125 duration-300" />
-            <span className="text-[19px] font-medium tracking-tight text-brand-neutral">
-              {t.header.brand}
-            </span>
-          </a>
-          <nav className="hidden md:flex items-center gap-8 text-[13px] tracking-wide text-brand-muted">
-            {t.header.nav.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="hover:text-brand-yellow transition-colors"
-              >
-                {item.label}
-              </a>
-            ))}
-          </nav>
-          <a
-            href="/contact-us"
-            className="text-[13px] font-medium px-4 py-1.5 rounded-custom bg-brand-green text-white hover:bg-brand-blue transition-colors"
-          >
-            {t.header.cta}
-          </a>
-        </div>
-      </header>
 
       <main className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
         {/* Hero */}
@@ -75,24 +47,23 @@ export default function Home() {
         </section>
 
         {/* The Tendencia Way */}
-        <section id="pillars" className="space-y-10">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-12 items-start">
-            <div className="md:col-span-3">
-              <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted block pt-2">
-                {t.pillars.label}
-              </span>
-            </div>
-            <div className="md:col-span-9">
-              <p className="font-display text-3xl sm:text-4xl lg:text-[40px] leading-[1.3] font-normal text-brand-neutral">
-                {t.pillars.intro}
-              </p>
-            </div>
+        <section id="pillars" className="space-y-8">
+          <div className="space-y-2">
+            <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
+              {t.pillars.label}
+            </span>
+            <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
+              The Tendencia Way — Six Core Values
+            </h2>
+            <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
+              {t.pillars.intro}
+            </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-4">
             {t.pillars.items.map((pillar) => (
-              <div key={pillar.title} className="border-t border-brand-border pt-6 space-y-3">
-                <h3 className="font-display text-xl text-brand-neutral font-normal">
+              <div key={pillar.title} className="bg-brand-subtle border border-brand-border rounded-custom p-6 space-y-3">
+                <h3 className="font-display text-lg text-brand-neutral font-normal">
                   {pillar.title}
                 </h3>
                 <p className="text-[15px] text-brand-muted leading-relaxed">{pillar.body}</p>
@@ -286,75 +257,6 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 pt-8 pb-16 space-y-12">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-[13px] text-brand-muted">
-          <div className="space-y-3">
-            <h4 className="text-[11px] uppercase tracking-[0.2em] text-brand-neutral">Explore</h4>
-            <nav className="flex flex-col gap-2">
-              {t.footer.nav.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="hover:text-brand-yellow transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
-              <a href="/contact-us" className="hover:text-brand-neutral transition-colors">
-                {t.footer.cta}
-              </a>
-            </nav>
-          </div>
-
-          <div className="space-y-3">
-            <h4 className="text-[11px] uppercase tracking-[0.2em] text-brand-neutral">Follow Us</h4>
-            <nav className="flex flex-col gap-2">
-              {t.footer.social.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-brand-yellow transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </nav>
-          </div>
-
-          <div className="space-y-3">
-            <h4 className="text-[11px] uppercase tracking-[0.2em] text-brand-neutral">Language</h4>
-            <nav className="flex flex-col gap-2">
-              {t.footer.languages.map((lang) => (
-                <a
-                  key={lang.href}
-                  href={lang.href}
-                  className="hover:text-brand-yellow transition-colors"
-                >
-                  {lang.label}
-                </a>
-              ))}
-            </nav>
-          </div>
-        </div>
-
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-brand-muted border-t border-brand-border pt-6">
-          <div>{t.footer.copyright}</div>
-          <div className="flex items-center gap-6">
-            {t.footer.links.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="hover:text-brand-yellow transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
-        </div>
-      </footer>
     </>
   );
 }
