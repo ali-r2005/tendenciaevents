@@ -252,6 +252,233 @@ export const en = {
     ],
   },
 
+  destinationManagementPage: {
+    meta: {
+      title: "Destination Management Company Morocco (DMC) | Tendencia Events & Travel",
+      description:
+        "Tendencia is a Destination Management Company (DMC) in Morocco, guiding corporate events and incentive travel with local expertise from Tangier and Marrakech to destinations nationwide.",
+    },
+    label: "Destination Management",
+    title: "Destination Management Company (DMC) in Morocco",
+    intro:
+      "Whether you want to organize an event in your hometown or abroad, our experienced team of Destination Managers is here to guide you. We have in-depth knowledge of the most popular destinations and best practices to offer you an exceptional experience.",
+    description:
+      "As a Destination Management Company (DMC) operating from Tangier and Marrakech, Tendencia brings on-the-ground knowledge of venues, suppliers, and logistics across Morocco — so your event, incentive trip, or corporate program runs smoothly no matter which destination you choose.",
+    cta: "Let's Make Memories Together",
+    includesLabel: "What This Service Includes",
+    includes: [
+      "Expert Guidance from local Destination Managers",
+      "Flexible Destination Selection across Morocco",
+      "Creative Event Concept Development",
+      "Efficient Logistics Planning",
+      "Bespoke Travel Solutions",
+      "Thematic Event Coordination",
+      "Comprehensive Event Reporting",
+      "Responsive Client Support",
+    ],
+    relatedLabel: "Related Services",
+    related: [
+      {
+        title: "Incentive Seminar – PCO",
+        body: "For corporate seminars and incentive programs at your chosen destination.",
+        href: "/services/incentive-seminar-pco",
+      },
+      {
+        title: "Receptive Services",
+        body: "For international guest arrival, accommodation, and tours.",
+        href: "/services/receptive-services",
+      },
+      {
+        title: "All Services",
+        body: "See the full range of our event and destination management services.",
+        href: "/services",
+      },
+    ],
+  },
+
+  eventManagementPage: {
+    meta: {
+      title: "Event Management Company Morocco | Tendencia Events & Travel",
+      description:
+        "Full event management in Morocco — corporate soirées, galas, and conferences planned end-to-end by Tendencia's team in Tangier and Marrakech, from logistics to guest management.",
+    },
+    label: "Event Management",
+    title: "Event Management Company in Morocco",
+    intro:
+      "Entrust us with the complete planning and management of your event. Whether it's a conference, corporate soirée, or gala, we take care of all logistical details, vendor coordination, decor, guest management, and more.",
+    description:
+      "From corporate conferences in Tangier to galas in Marrakech, our event management team handles every stage of the process — planning, vendor sourcing, on-site coordination, and post-event reporting — so you can focus on your guests, not the logistics. This covers the full spectrum of corporate and MICE events (Meetings, Incentives, Conferences, Exhibitions) — for large-scale congresses and PCO-managed programs specifically, see our Incentive Seminar – PCO service.",
+    cta: "Let's Make Memories Together",
+    includesLabel: "What This Service Includes",
+    includes: [
+      "Efficient Logistics Planning",
+      "Vendor & Décor Coordination",
+      "Streamlined Event Management Processes",
+      "Creative Event Concept Development",
+      "Personalized Attendee Experiences",
+      "Comprehensive Event Reporting",
+      "Responsive Client Support",
+    ],
+    relatedLabel: "Related Services",
+    related: [
+      {
+        title: "Incentive Seminar – PCO",
+        body: "For congress management, PCO services, and incentive travel programs.",
+        href: "/services/incentive-seminar-pco",
+      },
+      {
+        title: "Event Production",
+        body: "For lighting, staging, and technical production within your event.",
+        href: "/services/event-production",
+      },
+      {
+        title: "Destination Management",
+        body: "For choosing and managing the right destination for your event.",
+        href: "/services/destination-management",
+      },
+      {
+        title: "All Services",
+        body: "See the full range of our event and destination management services.",
+        href: "/services",
+      },
+    ],
+  },
+
+  incentiveSeminarPcoPage: {
+    meta: {
+      title: "PCO & Incentive Seminars Morocco | Tendencia Events & Travel",
+      description:
+        "Professional Congress Organizer (PCO) services in Morocco: corporate seminars, congresses, and incentive programs managed end-to-end by Tendencia's team in Tangier and Marrakech.",
+    },
+    label: "Incentive Seminar – PCO",
+    title: "PCO & Incentive Seminar Services in Morocco",
+    intro:
+      "As a Professional Congress Organizer (PCO), we specialize in organizing motivating seminars and corporate events. We create unique incentive programs that boost productivity, reward exceptional performance, and enhance your team's loyalty.",
+    description:
+      "As a PCO operating from Tangier and Marrakech, we manage the full mechanics of congresses and corporate seminars in Morocco — program design, speaker and delegate coordination, and incentive structuring — so associations and corporations can run large-scale events with the rigor a professional congress demands.",
+    cta: "Let's Make Memories Together",
+    includesLabel: "What This Service Includes",
+    includes: [
+      "Professional Congress Organization (PCO)",
+      "Seminar & Congress Program Design",
+      "Incentive Program Structuring",
+      "Engaging Event Communication",
+      "Thematic Event Coordination",
+      "Comprehensive Event Reporting",
+      "Responsive Client Support",
+    ],
+    relatedLabel: "Related Services",
+    related: [
+      {
+        title: "Event Management",
+        body: "For general corporate event and conference logistics beyond congress organization.",
+        href: "/services/event-management",
+      },
+      {
+        title: "Receptive Services",
+        body: "For incentive group travel, transfers, and accommodation.",
+        href: "/services/receptive-services",
+      },
+      {
+        title: "Destination Management",
+        body: "For selecting the right destination for your seminar or congress.",
+        href: "/services/destination-management",
+      },
+      {
+        title: "All Services",
+        body: "See the full range of our event and destination management services.",
+        href: "/services",
+      },
+    ],
+  },
+
+  eventProductionPage: {
+    meta: {
+      title: "Event Production Morocco — Lighting, Staging & AV | Tendencia",
+      description:
+        "Full event production in Morocco: lighting, set design, sound systems, and special effects. Tendencia's production team in Tangier and Marrakech delivers visually stunning corporate events.",
+    },
+    label: "Event Production",
+    title: "Event Production Services in Morocco",
+    intro:
+      "From lighting to set design, sound systems to special effects, we ensure high-quality event production to guarantee a visually and audibly stunning experience. We work with industry-leading suppliers to create events that leave a lasting impression.",
+    description:
+      "Whether it's stage design for a corporate gala in Marrakech or full AV and lighting setup for a conference in Tangier, our event production team brings the technical expertise to turn any venue into a fully produced experience.",
+    cta: "Let's Make Memories Together",
+    cta2: "Contact Us",
+    includesLabel: "What This Service Includes",
+    includes: [
+      "Lighting Design & Setup",
+      "Set & Stage Design",
+      "Sound Systems & AV Production",
+      "Special Effects",
+      "Creative Event Concept Development",
+      "Innovative Technology Integration",
+      "Engaging Event Communication",
+    ],
+    relatedLabel: "Related Services",
+    related: [
+      {
+        title: "Event Management",
+        body: "For full event planning and vendor coordination beyond production.",
+        href: "/services/event-management",
+      },
+      {
+        title: "Destination Management",
+        body: "For choosing and managing your event's destination.",
+        href: "/services/destination-management",
+      },
+      {
+        title: "All Services",
+        body: "See the full range of our event and destination management services.",
+        href: "/services",
+      },
+    ],
+  },
+
+  receptiveServicesPage: {
+    meta: {
+      title: "Receptive Services Morocco — Ground Handling & Tours | Tendencia",
+      description:
+        "Receptive services in Morocco for international groups and delegates: airport transfers, accommodation, guided tours, and leisure activities with 24/7 assistance.",
+    },
+    label: "Receptive Services",
+    title: "Receptive Services (Ground Handling) in Morocco",
+    intro:
+      "For international clients, we offer comprehensive receptive services. From airport welcome to accommodation, guided tours, and leisure activities, we ensure your stay is enjoyable and worry-free, providing 24/7 assistance.",
+    description:
+      "As a receptive tour operator based in Tangier and Marrakech, we handle the full on-the-ground experience for foreign delegations and travelers visiting Morocco — meet-and-greet, transfers, hotel arrangements, and curated excursions — backed by round-the-clock support for the duration of the stay.",
+    cta: "Let's Make Memories Together",
+    includesLabel: "What This Service Includes",
+    includes: [
+      "Airport Meet & Greet / Transfers",
+      "Accommodation Arrangements",
+      "Guided Tours & Excursions",
+      "Leisure Activities",
+      "24/7 On-the-Ground Assistance",
+      "Personalized Attendee Experiences",
+      "Responsive Client Support",
+    ],
+    relatedLabel: "Related Services",
+    related: [
+      {
+        title: "Destination Management",
+        body: "For full destination planning beyond ground handling.",
+        href: "/services/destination-management",
+      },
+      {
+        title: "Incentive Seminar – PCO",
+        body: "For group incentive travel programs.",
+        href: "/services/incentive-seminar-pco",
+      },
+      {
+        title: "All Services",
+        body: "See the full range of our event and destination management services.",
+        href: "/services",
+      },
+    ],
+  },
+
   footer: {
     copyright: "Copyright © 2026 Tendencia Events & Travel | All Rights Reserved",
     nav: [
