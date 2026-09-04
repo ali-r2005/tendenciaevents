@@ -27,7 +27,7 @@ export default function Home() {
               <a
                 key={item.href}
                 href={item.href}
-                className="hover:text-brand-neutral transition-colors"
+                className="hover:text-brand-yellow transition-colors"
               >
                 {item.label}
               </a>
