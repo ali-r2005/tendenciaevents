@@ -122,46 +122,55 @@ export const en = {
         quote:
           "Tendencia brilliantly managed our event, even at the last minute. Their team perfectly understood our needs and orchestrated every detail with impeccable precision.",
         author: "Adil Ettouhami, Foliatech",
+        rating: 5,
       },
       {
         quote:
           "The organization of our event by Tendencia was impeccable. Every detail was carefully considered, with remarkable creativity in crafting solutions.",
         author: "Gustavo Ruiz Checo Trigo",
+        rating: 5,
       },
       {
         quote:
           "For the celebration of our centenary, we were extremely satisfied with the organization by Tendencia.",
         author: "Amina Essaoudi, Lear Corporation",
+        rating: 5,
       },
       {
         quote:
           "The collaboration with Tendencia during the CHAN 2018 in Tangier was exemplary. Their agency brilliantly conducted the audit and quality management control.",
         author: "Kenza Baghdadli, Moroccan Football Federation",
+        rating: 5,
       },
       {
         quote:
           "The organization of our event by Tendencia exceeded our expectations. Their team was able to capture the essence of our brand.",
         author: "Alice Rahou, Accor",
+        rating: 5,
       },
       {
         quote:
           "Thanks to Tendencia, our event at the Port of Tangier City was a total success.",
         author: "Rajae El Hannach, Port of Tangier City",
+        rating: 5,
       },
       {
         quote:
           "Collaborating with Tendencia was an enriching experience. Their team demonstrated exceptional expertise.",
         author: "Lamia El Akkad, Experience Morocco",
+        rating: 5,
       },
       {
         quote:
           "The organization of our event by Tendencia was flawless. Their team was able to meet the high standards of our institution.",
         author: "Sultana Ajem, The World Bank",
+        rating: 5,
       },
       {
         quote:
           "We were very satisfied with the organization of our event by Tendencia for Ciments du Maroc.",
         author: "Ghita Kbila, Ciments du Maroc",
+        rating: 5,
       },
     ],
   },

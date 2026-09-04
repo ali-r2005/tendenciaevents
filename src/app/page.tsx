@@ -156,6 +156,11 @@ export default function Home() {
             <div className="flex gap-6 testimonials-scroll">
               {t.testimonials.items.map((item) => (
                 <blockquote key={item.author} className="flex-shrink-0 w-[320px] sm:w-[400px] bg-brand-subtle p-6 rounded-custom border border-brand-border">
+                  <div className="flex gap-0.5 mb-3 text-brand-yellow text-[15px]" aria-label={`${item.rating} out of 5 stars`}>
+                    {Array.from({ length: item.rating }).map((_, i) => (
+                      <span key={i}>★</span>
+                    ))}
+                  </div>
                   <p className="text-[15px] text-brand-neutral leading-relaxed mb-4">
                     &ldquo;{item.quote}&rdquo;
                   </p>
@@ -166,6 +171,11 @@ export default function Home() {
               ))}
               {t.testimonials.items.map((item) => (
                 <blockquote key={`${item.author}-dupe`} className="flex-shrink-0 w-[320px] sm:w-[400px] bg-brand-subtle p-6 rounded-custom border border-brand-border">
+                  <div className="flex gap-0.5 mb-3 text-brand-yellow text-[15px]" aria-label={`${item.rating} out of 5 stars`}>
+                    {Array.from({ length: item.rating }).map((_, i) => (
+                      <span key={i}>★</span>
+                    ))}
+                  </div>
                   <p className="text-[15px] text-brand-neutral leading-relaxed mb-4">
                     &ldquo;{item.quote}&rdquo;
                   </p>

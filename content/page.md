@@ -79,30 +79,39 @@ As a full-service event management and destination management company (DMC) in M
 
 Trusted by leading organizations across Morocco and internationally for corporate events, seminars, and incentive travel — including Accor, The World Bank, Lear Corporation, and Ciments du Maroc:
 
+> ★★★★★
 > "Tendencia brilliantly managed our event, even at the last minute. Their team perfectly understood our needs and orchestrated every detail with impeccable precision."
 > — **Adil Ettouhami**, Foliatech
 
+> ★★★★★
 > "The organization of our event by Tendencia was impeccable. Every detail was carefully considered, with remarkable creativity in crafting solutions."
 > — **Gustavo Ruiz Checo Trigo**
 
+> ★★★★★
 > "For the celebration of our centenary, we were extremely satisfied with the organization by Tendencia."
 > — **Amina Essaoudi**, Lear Corporation
 
+> ★★★★★
 > "The collaboration with Tendencia during the CHAN 2018 in Tangier was exemplary. Their agency brilliantly conducted the audit and quality management control."
 > — **Kenza Baghdadli**, Moroccan Football Federation
 
+> ★★★★★
 > "The organization of our event by Tendencia exceeded our expectations. Their team was able to capture the essence of our brand."
 > — **Alice Rahou**, Accor
 
+> ★★★★★
 > "Thanks to Tendencia, our event at the Port of Tangier City was a total success."
 > — **Rajae El Hannach**, Port of Tangier City
 
+> ★★★★★
 > "Collaborating with Tendencia was an enriching experience. Their team demonstrated exceptional expertise."
 > — **Lamia El Akkad**, Experience Morocco
 
+> ★★★★★
 > "The organization of our event by Tendencia was flawless. Their team was able to meet the high standards of our institution."
 > — **Sultana Ajem**, The World Bank
 
+> ★★★★★
 > "We were very satisfied with the organization of our event by Tendencia for Ciments du Maroc."
 > — **Ghita Kbila**, Ciments du Maroc
 
