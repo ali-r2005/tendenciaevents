@@ -10,10 +10,8 @@ export function Header() {
   return (
     <header className="w-full pt-2 px-4 sm:px-6 sticky top-2 z-50">
       <div className="max-w-[1140px] mx-auto bg-white rounded-custom shadow-lg border border-brand-border/60 px-3 sm:px-4 h-16 flex items-center justify-between">
-        <a href="/" className="flex items-center gap-2 group pl-1">
-          <span className="w-8 h-8 rounded-full bg-brand-green text-white flex items-center justify-center text-sm font-medium">
-            T
-          </span>
+        <a href="/" className="flex items-center group pl-1">
+          <img src="/logo.svg" alt="Tendencia" className="h-8 w-auto" />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-[13px] font-medium tracking-wide text-brand-neutral">
           {t.header.nav.map((item) => (

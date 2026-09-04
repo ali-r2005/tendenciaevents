@@ -8,10 +8,10 @@ export const en = {
   header: {
     brand: "Tendencia",
     nav: [
-      { label: "The Tendencia Way", href: "#pillars" },
-      { label: "Services", href: "#services" },
-      { label: "Testimonials", href: "#testimonials" },
-      { label: "Offices", href: "#offices" },
+      { label: "Home", href: "/" },
+      { label: "About Us", href: "/about-us" },
+      { label: "Services", href: "/services" },
+      { label: "Contact Us", href: "/contact-us" },
     ],
     cta: "Need Inspiration",
   },
