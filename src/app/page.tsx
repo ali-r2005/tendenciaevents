@@ -73,7 +73,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-4">
             {t.pillars.items.map((pillar) => (
-              <div key={pillar.title} className="bg-brand-subtle border border-brand-border rounded-custom p-6 space-y-3">
+              <div
+                key={pillar.title}
+                className="bg-brand-subtle border border-brand-border rounded-custom p-6 space-y-3 hover:border-brand-green hover:-translate-y-1 transition-all duration-200"
+              >
                 <h3 className="font-display text-lg text-brand-neutral font-normal">
                   {pillar.title}
                 </h3>
