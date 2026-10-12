@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { getDictionary } from "../../../i18n";
 import { FAQAccordion } from "@/components/FAQAccordion";
+import SectionHeading from "@/components/SectionHeading";
 
 const dictionary = getDictionary();
 
@@ -40,9 +41,7 @@ export default function AboutUs() {
       <section className="space-y-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
           <div className="md:col-span-7 space-y-2">
-            <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-              {t.aboutUsPage.story.label}
-            </h2>
+            <SectionHeading>{t.aboutUsPage.story.label}</SectionHeading>
             <div className="space-y-4 pt-4">
               {t.aboutUsPage.story.paragraphs.map((paragraph) => (
                 <p key={paragraph} className="text-[16px] text-brand-muted leading-relaxed">
@@ -72,9 +71,7 @@ export default function AboutUs() {
           <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
             {t.aboutUsPage.mission.label}
           </span>
-          <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-            {t.aboutUsPage.mission.title}
-          </h2>
+          <SectionHeading>{t.aboutUsPage.mission.title}</SectionHeading>
           <p className="text-[16px] text-brand-muted leading-relaxed pt-2">
             {t.aboutUsPage.mission.intro}
           </p>
@@ -99,9 +96,7 @@ export default function AboutUs() {
 
       {/* Why Choose Tendencia */}
       <section className="space-y-8">
-        <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-          {t.aboutUsPage.whyChoose.label}
-        </h2>
+        <SectionHeading>{t.aboutUsPage.whyChoose.label}</SectionHeading>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {t.aboutUsPage.whyChoose.items.map((item) => (
             <div
@@ -123,9 +118,7 @@ export default function AboutUs() {
           <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
             {t.team.label}
           </span>
-          <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-            {t.team.title}
-          </h2>
+          <SectionHeading>{t.team.title}</SectionHeading>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 pt-4">
           {t.team.members.map((member) => (
@@ -152,9 +145,7 @@ export default function AboutUs() {
           <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
             {t.aboutUsPage.faq.label}
           </span>
-          <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-            {t.aboutUsPage.faq.title}
-          </h2>
+          <SectionHeading>{t.aboutUsPage.faq.title}</SectionHeading>
         </div>
         <FAQAccordion items={t.aboutUsPage.faq.items} />
       </section>
@@ -169,9 +160,9 @@ export default function AboutUs() {
             <span className="text-xs uppercase tracking-[0.25em] text-white mb-4">
               {t.ctaBanner.eyebrow}
             </span>
-            <h2 className="font-display text-3xl sm:text-5xl text-white font-normal mb-8 leading-tight">
+            <SectionHeading variant="light" align="center" wrapperClassName="mb-8">
               {t.ctaBanner.title}
-            </h2>
+            </SectionHeading>
             <a
               href="/contact-us"
               className="bg-white hover:bg-brand-yellow transition-colors px-8 py-3.5 rounded-custom text-brand-green text-[13px] font-medium tracking-wide uppercase"

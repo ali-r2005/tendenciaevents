@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { getDictionary } from "../../i18n";
+import SectionHeading from "@/components/SectionHeading";
 
 const dictionary = getDictionary();
 
@@ -53,9 +54,7 @@ export default function Home() {
               <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
                 {t.pillars.label}
               </span>
-              <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-                The Tendencia Way — Six Core Values
-              </h2>
+              <SectionHeading>The Tendencia Way — Six Core Values</SectionHeading>
               <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
                 {t.pillars.intro}
               </p>
@@ -72,15 +71,28 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-4">
-            {t.pillars.items.map((pillar) => (
+            {t.pillars.items.map((pillar, i) => (
               <div
                 key={pillar.title}
-                className="bg-brand-subtle border border-brand-border rounded-custom p-6 space-y-3 hover:border-brand-green hover:-translate-y-1 transition-all duration-200"
+                className="group relative overflow-hidden rounded-custom border border-brand-border shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
-                <h3 className="font-display text-lg text-brand-neutral font-normal">
-                  {pillar.title}
-                </h3>
-                <p className="text-[15px] text-brand-muted leading-relaxed">{pillar.body}</p>
+                <div className="relative h-56 sm:h-64 w-full overflow-hidden">
+                  <img
+                    src={pillar.image}
+                    alt={pillar.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
+                  <span className="absolute top-4 left-4 inline-flex items-center gap-1.5 bg-white/10 border border-white/25 backdrop-blur-sm text-white/90 text-[11px] font-medium tracking-wide px-3 py-1 rounded-custom">
+                    0{i + 1}
+                  </span>
+                  <div className="absolute inset-x-0 bottom-0 p-5 space-y-1.5">
+                    <h3 className="font-display text-xl text-white font-normal">
+                      {pillar.title}
+                    </h3>
+                    <p className="text-[13.5px] text-white/80 leading-relaxed">{pillar.body}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -93,9 +105,7 @@ export default function Home() {
               <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
                 {t.services.label}
               </span>
-              <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-                {t.services.title}
-              </h2>
+              <SectionHeading>{t.services.title}</SectionHeading>
               <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
                 {t.services.intro}
               </p>
@@ -133,9 +143,7 @@ export default function Home() {
             <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
               {t.process.label}
             </span>
-            <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-              {t.process.title}
-            </h2>
+            <SectionHeading>{t.process.title}</SectionHeading>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
             {t.process.steps.map((step, i) => (
@@ -170,9 +178,7 @@ export default function Home() {
             <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
               {t.testimonials.label}
             </span>
-            <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-              {t.testimonials.title}
-            </h2>
+            <SectionHeading>{t.testimonials.title}</SectionHeading>
             <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
               {t.testimonials.intro}
             </p>
@@ -219,9 +225,7 @@ export default function Home() {
             <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
               {t.team.label}
             </span>
-            <h2 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
-              {t.team.title}
-            </h2>
+            <SectionHeading>{t.team.title}</SectionHeading>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 pt-4">
             {t.team.members.map((member) => (
@@ -249,9 +253,9 @@ export default function Home() {
               <span className="text-xs uppercase tracking-[0.25em] text-white mb-4">
                 {t.ctaBanner.eyebrow}
               </span>
-              <h2 className="font-display text-3xl sm:text-5xl text-white font-normal mb-8 leading-tight">
+              <SectionHeading variant="light" align="center" wrapperClassName="mb-8">
                 {t.ctaBanner.title}
-              </h2>
+              </SectionHeading>
               <a
                 href="/contact-us"
                 className="bg-white hover:bg-brand-yellow transition-colors px-8 py-3.5 rounded-custom text-brand-green text-[13px] font-medium tracking-wide uppercase"

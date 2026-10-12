@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { getDictionary } from "../../../i18n";
+import SectionHeading from "@/components/SectionHeading";
 
 const dictionary = getDictionary();
 
@@ -70,9 +71,9 @@ export default function Services() {
             <span className="text-xs uppercase tracking-[0.25em] text-white mb-4">
               {t.ctaBanner.eyebrow}
             </span>
-            <h2 className="font-display text-3xl sm:text-5xl text-white font-normal mb-8 leading-tight">
+            <SectionHeading variant="light" align="center" wrapperClassName="mb-8">
               {t.ctaBanner.title}
-            </h2>
+            </SectionHeading>
             <a
               href="/contact-us"
               className="bg-white hover:bg-brand-yellow transition-colors px-8 py-3.5 rounded-custom text-brand-green text-[13px] font-medium tracking-wide uppercase"

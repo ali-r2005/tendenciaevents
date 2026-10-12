@@ -34,26 +34,32 @@ export const en = {
       {
         title: "Yes we Can!",
         body: "We turn your dreams into reality. With determination and creativity, we take on every challenge to create unforgettable events and trips.",
+        image: "/pillars/pillar-1.webp",
       },
       {
         title: "Yes we surprise!",
         body: "We love creating surprises. We aim to amaze you with unexpected moments and memorable experiences.",
+        image: "/pillars/pillar-2.svg",
       },
       {
         title: "Yes we motivate!",
         body: "We are here to motivate you. We understand the importance of creating a stimulating environment that inspires and engages participants.",
+        image: "/pillars/pillar-3.svg",
       },
       {
         title: "Yes we manage!",
         body: "We manage with expertise. The organization of an event or trip requires meticulous attention to detail, careful planning, and efficient coordination.",
+        image: "/pillars/pillar-4.svg",
       },
       {
         title: "Yes we adapt!",
         body: "We adapt to your needs. Each project is unique, and we understand the importance of adjusting to your specific requirements.",
+        image: "/pillars/pillar-5.svg",
       },
       {
         title: "Yes we inspire!",
         body: "We are passionate about inspiration. We are committed to stimulating your creativity and offering innovative ideas.",
+        image: "/pillars/pillar-6.svg",
       },
     ],
   },

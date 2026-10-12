@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { getDictionary } from "../../../i18n";
+import SectionHeading from "@/components/SectionHeading";
 
 const dictionary = getDictionary();
 
@@ -28,7 +29,9 @@ export default function ContactUs() {
             </p>
 
             <div className="pt-8 space-y-2">
-              <h2 className="font-medium text-brand-neutral">{t.contactUsPage.contactInfoLabel}</h2>
+              <SectionHeading className="font-medium text-brand-neutral" overrideClassName>
+                {t.contactUsPage.contactInfoLabel}
+              </SectionHeading>
               <p className="text-[15px] text-brand-muted">{t.contactUsPage.phone}</p>
               <p className="text-[15px] text-brand-muted">{t.contactUsPage.email}</p>
             </div>
@@ -36,9 +39,9 @@ export default function ContactUs() {
 
           <div className="md:col-span-7">
             <form className="bg-brand-subtle border border-brand-border rounded-custom p-6 sm:p-8 space-y-5">
-              <h2 className="font-display text-2xl text-brand-neutral font-normal">
+              <SectionHeading className="font-display text-2xl text-brand-neutral font-normal" overrideClassName>
                 {t.contactUsPage.form.title}
-              </h2>
+              </SectionHeading>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div className="space-y-1.5">

@@ -23,21 +23,27 @@ Tendencia Events & Travel designs and delivers corporate events, team building p
 Every event we manage in Morocco — from corporate seminars to large-scale incentive trips — is guided by six principles that define how our team works with you, from first brief to final report.
 
 **Yes we Can!**
+Image: /pillars/pillar-1.svg
 We turn your dreams into reality. With determination and creativity, we take on every challenge to create unforgettable events and trips.
 
 **Yes we surprise!**
+Image: /pillars/pillar-2.svg
 We love creating surprises. We aim to amaze you with unexpected moments and memorable experiences.
 
 **Yes we motivate!**
+Image: /pillars/pillar-3.svg
 We are here to motivate you. We understand the importance of creating a stimulating environment that inspires and engages participants.
 
 **Yes we manage!**
+Image: /pillars/pillar-4.svg
 We manage with expertise. The organization of an event or trip requires meticulous attention to detail, careful planning, and efficient coordination.
 
 **Yes we adapt!**
+Image: /pillars/pillar-5.svg
 We adapt to your needs. Each project is unique, and we understand the importance of adjusting to your specific requirements.
 
 **Yes we inspire!**
+Image: /pillars/pillar-6.svg
 We are passionate about inspiration. We are committed to stimulating your creativity and offering innovative ideas.
 
 ## Services Offered
