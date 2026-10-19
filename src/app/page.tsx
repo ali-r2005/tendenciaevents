@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   description: dictionary.meta.description,
 };
 
+const pillarAccents = [
+  { panel: "bg-brand-green/5", bar: "bg-brand-green", stroke: "#147f4c", underline: "/underline-green.svg" },
+  { panel: "bg-brand-blue/5", bar: "bg-brand-blue", stroke: "#2497cd", underline: "/underline-blue.svg" },
+  { panel: "bg-brand-yellow/10", bar: "bg-brand-yellow", stroke: "#f4c71a", underline: "/underline-gold.svg" },
+];
+
 export default function Home() {
   const t = getDictionary();
 
@@ -54,52 +60,67 @@ export default function Home() {
 
         {/* The Tendencia Way */}
         <section id="pillars" className="space-y-8">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
-            <div className="md:col-span-7 space-y-2">
-              <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
-                {t.pillars.label}
-              </span>
-              <SectionHeading>The Tendencia Way — Six Core Values</SectionHeading>
-              <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
-                {t.pillars.intro}
-              </p>
-            </div>
-            <div className="md:col-span-5">
-              <div className="w-full h-64 sm:h-80 bg-brand-canvas rounded-custom overflow-hidden border border-brand-border">
-                <img
-                  src="/pillars-image.jpg"
-                  alt="The Tendencia Way"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+          <div className="space-y-2">
+            <span className="text-[11px] uppercase tracking-[0.2em] text-brand-muted">
+              {t.pillars.label}
+            </span>
+            <SectionHeading>The Tendencia Way — Six Core Values</SectionHeading>
+            <p className="text-[16px] text-brand-muted leading-relaxed max-w-2xl pt-2">
+              {t.pillars.intro}
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-4">
-            {t.pillars.items.map((pillar, i) => (
-              <div
-                key={pillar.title}
-                className="group relative overflow-hidden rounded-custom border border-brand-border shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
-              >
-                <div className="relative h-56 sm:h-64 w-full overflow-hidden">
-                  <img
-                    src={pillar.image}
-                    alt={pillar.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
-                  <span className="absolute top-4 left-4 inline-flex items-center gap-1.5 bg-white/10 border border-white/25 backdrop-blur-sm text-white/90 text-[11px] font-medium tracking-wide px-3 py-1 rounded-custom">
-                    0{i + 1}
-                  </span>
-                  <div className="absolute inset-x-0 bottom-0 p-5 space-y-1.5">
-                    <h3 className="font-display text-xl text-white font-normal">
-                      {pillar.title}
-                    </h3>
-                    <p className="text-[13.5px] text-white/80 leading-relaxed">{pillar.body}</p>
+          <div className="space-y-6 sm:space-y-8 pt-4">
+            {t.pillars.items.map((pillar, i) => {
+              const accent = pillarAccents[i % pillarAccents.length];
+              const reversed = i % 2 === 1;
+              return (
+                <article
+                  key={pillar.title}
+                  className={`group relative overflow-hidden rounded-custom border border-brand-border bg-white shadow-sm hover:shadow-2xl transition-shadow duration-300 flex flex-col ${reversed ? "lg:flex-row-reverse" : "lg:flex-row"}`}
+                >
+                  {/* Image panel */}
+                  <div className="relative lg:w-[58%] h-64 sm:h-80 lg:h-[440px] overflow-hidden">
+                    <img
+                      src={pillar.image}
+                      alt={pillar.title}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                    <div className="absolute inset-2 sm:inset-4 border border-white/25 rounded-[4px] pointer-events-none" />
+                    <span className="absolute bottom-6 left-6 inline-flex items-center bg-white/10 border border-white/25 backdrop-blur-sm text-white text-[12px] font-medium tracking-[0.2em] uppercase px-4 py-1.5 rounded-custom">
+                      Pillar 0{i + 1} / 0{t.pillars.items.length}
+                    </span>
                   </div>
-                </div>
-              </div>
-            ))}
+
+                  {/* Text panel */}
+                  <div className={`relative lg:w-[42%] flex flex-col justify-center p-8 sm:p-12 lg:p-14 ${accent.panel}`}>
+                    <span className={`absolute top-0 ${reversed ? "right-0" : "left-0"} h-full w-1.5 ${accent.bar} hidden lg:block`} />
+                    <span
+                      aria-hidden="true"
+                      className="absolute -top-4 right-6 font-display text-[120px] sm:text-[160px] leading-none text-transparent select-none pointer-events-none opacity-60"
+                      style={{ WebkitTextStroke: `2px ${accent.stroke}` }}
+                    >
+                      0{i + 1}
+                    </span>
+                    <div className="relative">
+                      <h3 className="font-display text-3xl sm:text-5xl font-normal text-brand-neutral tracking-tight">
+                        {pillar.title}
+                      </h3>
+                      <img
+                        src={accent.underline}
+                        alt=""
+                        aria-hidden="true"
+                        className="mt-3 h-auto w-[120px] sm:w-[160px]"
+                      />
+                      <p className="mt-6 text-[16px] sm:text-[18px] text-brand-muted leading-relaxed max-w-md">
+                        {pillar.body}
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </section>
 
