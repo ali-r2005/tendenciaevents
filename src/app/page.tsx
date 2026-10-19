@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
 
-      <main className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
+      <main className="w-full max-w-[1800px] mx-auto px-2 sm:px-3 py-6 space-y-24 sm:space-y-32">
         {/* Hero */}
         <section className="w-full pt-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
