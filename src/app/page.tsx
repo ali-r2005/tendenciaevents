@@ -17,24 +17,19 @@ export default function Home() {
 
       <main className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
         {/* Hero */}
-        <section className="w-full">
-          <div
-            className="rounded-custom overflow-hidden bg-brand-neutral bg-cover bg-center min-h-[620px] sm:min-h-[640px] lg:min-h-[700px] relative w-full flex items-center justify-center p-6 py-16 sm:py-6 shadow-2xl"
-            style={{ backgroundImage: "url('/BG.jpg')" }}
-          >
-            <div className="absolute inset-0 " />
-            <div className="absolute inset-2 sm:inset-4 border border-white/15 rounded-[4px] pointer-events-none" />
-            <div className="relative z-10 text-center max-w-3xl px-4 flex flex-col items-center">
-              <span className="inline-block bg-white/10 border border-white/25 backdrop-blur-sm text-white/90 text-[13px] sm:text-sm font-medium px-4 py-1.5 rounded-custom mb-6">
+        <section className="w-full pt-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+            <div className="lg:col-span-6 flex flex-col items-start">
+              <span className="inline-block bg-brand-green/10 border border-brand-green/25 text-brand-green text-[13px] sm:text-sm font-medium px-4 py-1.5 rounded-custom mb-6">
                 {t.hero.tagline}
               </span>
-              <h1 className="font-display text-4xl sm:text-6xl lg:text-[64px] font-normal tracking-tight text-white leading-[1.1] mb-6">
+              <h1 className="font-display text-4xl sm:text-6xl lg:text-[64px] font-normal tracking-tight text-brand-neutral leading-[1.1] mb-6">
                 {t.hero.title}
               </h1>
-              <p className="text-white/70 text-base sm:text-lg font-light mb-3">
+              <p className="text-brand-neutral text-base sm:text-lg font-light mb-3">
                 {t.hero.subtagline}
               </p>
-              <p className="text-white/70 text-base sm:text-lg max-w-xl mx-auto mb-10">
+              <p className="text-brand-muted text-base sm:text-lg max-w-xl mb-10">
                 {t.hero.description}
               </p>
               <a
@@ -43,6 +38,16 @@ export default function Home() {
               >
                 {t.hero.cta}
               </a>
+            </div>
+            <div className="lg:col-span-6">
+              <div className="relative w-full h-[360px] sm:h-[480px] lg:h-[600px] rounded-custom overflow-hidden bg-brand-canvas border border-brand-border shadow-2xl">
+                <img
+                  src="/hero.jpg"
+                  alt="Tendencia Events & Travel — events in Morocco"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-2 sm:inset-4 border border-white/25 rounded-[4px] pointer-events-none" />
+              </div>
             </div>
           </div>
         </section>
