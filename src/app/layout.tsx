@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Hammersmith_One, Inter } from "next/font/google";
+import { Kumbh_Sans } from "next/font/google";
 import { getDictionary } from "../../i18n";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import "./globals.css";
 
-const hammersmithOne = Hammersmith_One({
+const kumbhSansDisplay = Kumbh_Sans({
   variable: "--font-display",
   subsets: ["latin"],
   weight: "400",
 });
 
-const inter = Inter({
+const kumbhSans = Kumbh_Sans({
   variable: "--font-sans",
   subsets: ["latin"],
 });
@@ -27,7 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${hammersmithOne.variable} ${inter.variable} h-full antialiased`}
+      className={`${kumbhSansDisplay.variable} ${kumbhSans.variable} h-full antialiased`}
     >
       <body
         className="min-h-full flex flex-col font-sans"
