@@ -13,7 +13,7 @@ export default function EventManagement() {
   const t = getDictionary();
 
   return (
-    <main className="w-full max-w-[1800px] mx-auto px-2 sm:px-3 py-6 space-y-24 sm:space-y-32">
+    <main className="w-full max-w-[1700px] mx-auto px-4 sm:px-6 py-6 space-y-24 sm:space-y-32">
       {/* Hero */}
       <section className="space-y-8 pt-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
